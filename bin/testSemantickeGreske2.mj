@@ -1,0 +1,84 @@
+program proba
+
+record R{
+	int r1, r2;
+}
+class ALosKonstr{
+	{
+		Aa(){}
+	}
+}
+
+class A{
+	int p1;
+	char p2;
+	A pA;
+	{
+		A(){
+			pA.p1 = 1;
+			pA = new A;
+		}
+		void meth(){
+			print(pA.p1);
+		}
+		
+		void meth2(A a, int i2){
+		
+		}
+		
+		void m(){}
+	}
+}
+
+class B extends A{
+	int poljeB;
+	{
+		B(){
+			super();
+			poljeB = 2;
+		}
+		int meth(){
+			return 1;
+		}
+		
+		void meth2(B b, int i){
+		
+		}
+		
+		void m(){
+			super(1);
+			super();
+		}
+	}
+}
+
+class BLose extends int{
+
+}
+class BLose2 extends R{
+
+}
+
+A a;
+B b;
+{	
+
+	
+	void main() 
+	int i;
+	{
+		a = new int;
+		a = new B;
+		b = new A;
+		b = new B;
+		
+		i = b.m();
+		
+		i.polje = 1;
+		a.p6 = 1;
+		
+		if(b > null){}
+		
+		a++;
+	}
+}

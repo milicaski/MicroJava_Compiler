@@ -1,0 +1,2008 @@
+INFO  20:17:54,986 - Compiling source file: C:\Users\km180097d\Desktop\cetvrta godina\prvi semestar\programski prevodioci\projekat\workspace\MJCompiler\test\testSemantickeGreske1.mj
+INFO  20:17:55,016 - #5 program
+INFO  20:17:55,016 - #45 proba
+INFO  20:17:55,016 - #8 const
+INFO  20:17:55,017 - #45 int
+INFO  20:17:55,017 - #45 dobraKonst
+INFO  20:17:55,018 - #10 =
+INFO  20:17:55,018 - #47 1
+INFO  20:17:55,018 - #9 ;
+INFO  20:17:55,018 - #8 const
+INFO  20:17:55,019 - #45 int
+INFO  20:17:55,019 - #45 k1
+INFO  20:17:55,019 - #10 =
+INFO  20:17:55,019 - #48 'c'
+INFO  20:17:55,019 - #9 ;
+INFO  20:17:55,019 - #8 const
+INFO  20:17:55,019 - #45 bool
+INFO  20:17:55,019 - #45 k2
+INFO  20:17:55,019 - #10 =
+INFO  20:17:55,019 - #47 1
+INFO  20:17:55,024 - #9 ;
+INFO  20:17:55,024 - #8 const
+INFO  20:17:55,024 - #45 char
+INFO  20:17:55,024 - #45 k3
+INFO  20:17:55,024 - #10 =
+INFO  20:17:55,024 - #47 1
+INFO  20:17:55,024 - #9 ;
+INFO  20:17:55,024 - #45 in
+INFO  20:17:55,024 - #45 losTip
+INFO  20:17:55,024 - #9 ;
+INFO  20:17:55,025 - #14 class
+INFO  20:17:55,025 - #45 Klasa
+INFO  20:17:55,025 - #6 {
+INFO  20:17:55,025 - #45 int
+INFO  20:17:55,026 - #45 polje
+INFO  20:17:55,026 - #9 ;
+INFO  20:17:55,026 - #6 {
+INFO  20:17:55,026 - #45 void
+INFO  20:17:55,027 - #45 meth
+INFO  20:17:55,027 - #16 (
+INFO  20:17:55,027 - #45 int
+INFO  20:17:55,027 - #45 p1
+INFO  20:17:55,027 - #11 ,
+INFO  20:17:55,027 - #45 char
+INFO  20:17:55,027 - #45 p2
+INFO  20:17:55,027 - #17 )
+INFO  20:17:55,028 - #6 {
+INFO  20:17:55,028 - #7 }
+INFO  20:17:55,028 - #7 }
+INFO  20:17:55,029 - #7 }
+INFO  20:17:55,029 - #45 Klasa
+INFO  20:17:55,029 - #45 kl
+INFO  20:17:55,029 - #9 ;
+INFO  20:17:55,029 - #6 {
+INFO  20:17:55,029 - #45 int
+INFO  20:17:55,030 - #45 metodaBezReturn
+INFO  20:17:55,030 - #16 (
+INFO  20:17:55,030 - #17 )
+INFO  20:17:55,030 - #6 {
+INFO  20:17:55,030 - #7 }
+INFO  20:17:55,030 - #45 int
+INFO  20:17:55,030 - #45 metodaSaLosimReturn
+INFO  20:17:55,030 - #16 (
+INFO  20:17:55,030 - #17 )
+INFO  20:17:55,031 - #6 {
+INFO  20:17:55,031 - #30 return
+INFO  20:17:55,031 - #29 new
+INFO  20:17:55,031 - #45 Klasa
+INFO  20:17:55,031 - #9 ;
+INFO  20:17:55,031 - #30 return
+INFO  20:17:55,032 - #45 null
+INFO  20:17:55,032 - #9 ;
+INFO  20:17:55,032 - #30 return
+INFO  20:17:55,033 - #9 ;
+INFO  20:17:55,033 - #7 }
+INFO  20:17:55,033 - #45 void
+INFO  20:17:55,033 - #45 f
+INFO  20:17:55,033 - #16 (
+INFO  20:17:55,033 - #17 )
+INFO  20:17:55,033 - #6 {
+INFO  20:17:55,033 - #7 }
+INFO  20:17:55,033 - #45 int
+INFO  20:17:55,033 - #45 f
+INFO  20:17:55,033 - #16 (
+INFO  20:17:55,033 - #17 )
+INFO  20:17:55,033 - #6 {
+INFO  20:17:55,033 - #30 return
+INFO  20:17:55,033 - #47 1
+INFO  20:17:55,033 - #9 ;
+INFO  20:17:55,034 - #7 }
+INFO  20:17:55,034 - #45 void
+INFO  20:17:55,034 - #45 main
+INFO  20:17:55,034 - #16 (
+INFO  20:17:55,034 - #17 )
+INFO  20:17:55,034 - #45 int
+INFO  20:17:55,034 - #45 nijeNiz
+INFO  20:17:55,034 - #9 ;
+INFO  20:17:55,034 - #45 int
+INFO  20:17:55,034 - #45 dodelaProm
+INFO  20:17:55,034 - #9 ;
+INFO  20:17:55,034 - #45 int
+INFO  20:17:55,034 - #45 niz
+INFO  20:17:55,034 - #12 [
+INFO  20:17:55,034 - #13 ]
+INFO  20:17:55,034 - #9 ;
+INFO  20:17:55,034 - #45 char
+INFO  20:17:55,034 - #45 ch
+INFO  20:17:55,034 - #9 ;
+INFO  20:17:55,034 - #45 int
+INFO  20:17:55,034 - #45 ifProm
+INFO  20:17:55,034 - #9 ;
+INFO  20:17:55,034 - #6 {
+INFO  20:17:55,035 - #45 chr
+INFO  20:17:55,035 - #16 (
+INFO  20:17:55,035 - #48 'c'
+INFO  20:17:55,035 - #17 )
+INFO  20:17:55,035 - #9 ;
+INFO  20:17:55,035 - #45 ord
+INFO  20:17:55,035 - #16 (
+INFO  20:17:55,035 - #47 1
+INFO  20:17:55,035 - #17 )
+INFO  20:17:55,036 - #9 ;
+INFO  20:17:55,036 - #45 len
+INFO  20:17:55,036 - #16 (
+INFO  20:17:55,036 - #45 nijeNiz
+INFO  20:17:55,036 - #17 )
+INFO  20:17:55,036 - #9 ;
+INFO  20:17:55,036 - #45 f
+INFO  20:17:55,036 - #10 =
+INFO  20:17:55,036 - #47 1
+INFO  20:17:55,036 - #9 ;
+INFO  20:17:55,036 - #45 dodelaProm
+INFO  20:17:55,036 - #10 =
+INFO  20:17:55,036 - #48 'c'
+INFO  20:17:55,036 - #9 ;
+INFO  20:17:55,037 - #45 kl
+INFO  20:17:55,037 - #10 =
+INFO  20:17:55,037 - #45 dodelaProm
+INFO  20:17:55,037 - #24 +
+INFO  20:17:55,037 - #47 1
+INFO  20:17:55,037 - #9 ;
+INFO  20:17:55,037 - #45 kl
+INFO  20:17:55,037 - #21 ++
+INFO  20:17:55,037 - #9 ;
+INFO  20:17:55,038 - #45 dobraKonst
+INFO  20:17:55,038 - #21 ++
+INFO  20:17:55,038 - #9 ;
+INFO  20:17:55,038 - #45 niz
+INFO  20:17:55,038 - #22 --
+INFO  20:17:55,038 - #9 ;
+INFO  20:17:55,038 - #45 ch
+INFO  20:17:55,038 - #22 --
+INFO  20:17:55,041 - #9 ;
+INFO  20:17:55,041 - #45 ch
+INFO  20:17:55,041 - #16 (
+INFO  20:17:55,041 - #17 )
+INFO  20:17:55,042 - #9 ;
+INFO  20:17:55,042 - #45 kl
+INFO  20:17:55,042 - #23 .
+INFO  20:17:55,042 - #45 polje
+INFO  20:17:55,042 - #16 (
+INFO  20:17:55,042 - #17 )
+INFO  20:17:55,042 - #9 ;
+INFO  20:17:55,042 - #19 break
+INFO  20:17:55,042 - #9 ;
+INFO  20:17:55,042 - #20 continue
+INFO  20:17:55,042 - #9 ;
+INFO  20:17:55,042 - #33 if
+INFO  20:17:55,043 - #16 (
+INFO  20:17:55,043 - #47 1
+INFO  20:17:55,043 - #40 <
+INFO  20:17:55,043 - #47 2
+INFO  20:17:55,043 - #17 )
+INFO  20:17:55,044 - #6 {
+INFO  20:17:55,044 - #19 break
+INFO  20:17:55,044 - #9 ;
+INFO  20:17:55,044 - #20 continue
+INFO  20:17:55,044 - #9 ;
+INFO  20:17:55,045 - #7 }
+INFO  20:17:55,045 - #31 read
+INFO  20:17:55,045 - #16 (
+INFO  20:17:55,045 - #45 f
+INFO  20:17:55,045 - #17 )
+INFO  20:17:55,045 - #9 ;
+INFO  20:17:55,045 - #31 read
+INFO  20:17:55,045 - #16 (
+INFO  20:17:55,045 - #45 kl
+INFO  20:17:55,045 - #17 )
+INFO  20:17:55,045 - #9 ;
+INFO  20:17:55,045 - #32 print
+INFO  20:17:55,045 - #16 (
+INFO  20:17:55,045 - #45 kl
+INFO  20:17:55,045 - #11 ,
+INFO  20:17:55,046 - #47 2
+INFO  20:17:55,046 - #17 )
+INFO  20:17:55,046 - #9 ;
+INFO  20:17:55,046 - #32 print
+INFO  20:17:55,046 - #16 (
+INFO  20:17:55,046 - #45 f
+INFO  20:17:55,046 - #11 ,
+INFO  20:17:55,046 - #47 2
+INFO  20:17:55,046 - #17 )
+INFO  20:17:55,046 - #9 ;
+INFO  20:17:55,046 - #33 if
+INFO  20:17:55,046 - #16 (
+INFO  20:17:55,046 - #45 kl
+INFO  20:17:55,046 - #17 )
+INFO  20:17:55,046 - #6 {
+INFO  20:17:55,046 - #33 if
+INFO  20:17:55,046 - #16 (
+INFO  20:17:55,046 - #45 kl
+INFO  20:17:55,046 - #38 >
+INFO  20:17:55,046 - #47 1
+INFO  20:17:55,046 - #17 )
+INFO  20:17:55,046 - #6 {
+INFO  20:17:55,046 - #7 }
+INFO  20:17:55,047 - #33 if
+INFO  20:17:55,047 - #16 (
+INFO  20:17:55,047 - #45 niz
+INFO  20:17:55,047 - #38 >
+INFO  20:17:55,047 - #47 1
+INFO  20:17:55,047 - #17 )
+INFO  20:17:55,047 - #6 {
+INFO  20:17:55,047 - #7 }
+INFO  20:17:55,047 - #7 }
+INFO  20:17:55,047 - #34 else
+INFO  20:17:55,047 - #33 if
+INFO  20:17:55,047 - #16 (
+INFO  20:17:55,047 - #48 'c'
+INFO  20:17:55,047 - #35 ==
+INFO  20:17:55,047 - #47 1
+INFO  20:17:55,048 - #41 &&
+INFO  20:17:55,048 - #45 ifProm
+INFO  20:17:55,048 - #35 ==
+INFO  20:17:55,048 - #45 null
+INFO  20:17:55,048 - #17 )
+INFO  20:17:55,048 - #6 {
+INFO  20:17:55,048 - #43 do
+INFO  20:17:55,048 - #6 {
+INFO  20:17:55,048 - #7 }
+INFO  20:17:55,048 - #44 while
+INFO  20:17:55,048 - #16 (
+INFO  20:17:55,048 - #45 ch
+INFO  20:17:55,049 - #41 &&
+INFO  20:17:55,049 - #47 1
+INFO  20:17:55,049 - #17 )
+INFO  20:17:55,049 - #9 ;
+INFO  20:17:55,049 - #7 }
+INFO  20:17:55,049 - #45 kl
+INFO  20:17:55,049 - #23 .
+INFO  20:17:55,049 - #45 meth
+INFO  20:17:55,049 - #16 (
+INFO  20:17:55,049 - #47 1
+INFO  20:17:55,049 - #17 )
+INFO  20:17:55,049 - #9 ;
+INFO  20:17:55,049 - #45 kl
+INFO  20:17:55,050 - #23 .
+INFO  20:17:55,050 - #45 meth
+INFO  20:17:55,050 - #16 (
+INFO  20:17:55,050 - #48 'c'
+INFO  20:17:55,050 - #11 ,
+INFO  20:17:55,050 - #47 1
+INFO  20:17:55,050 - #17 )
+INFO  20:17:55,050 - #9 ;
+INFO  20:17:55,050 - #45 dodelaProm
+INFO  20:17:55,050 - #10 =
+INFO  20:17:55,050 - #25 -
+INFO  20:17:55,050 - #48 'c'
+INFO  20:17:55,050 - #9 ;
+INFO  20:17:55,050 - #45 dodelaProm
+INFO  20:17:55,050 - #10 =
+INFO  20:17:55,050 - #45 ch
+INFO  20:17:55,050 - #24 +
+INFO  20:17:55,050 - #47 1
+INFO  20:17:55,050 - #24 +
+INFO  20:17:55,050 - #45 kl
+INFO  20:17:55,050 - #9 ;
+INFO  20:17:55,050 - #45 dodelaProm
+INFO  20:17:55,050 - #10 =
+INFO  20:17:55,050 - #45 ch
+INFO  20:17:55,050 - #26 *
+INFO  20:17:55,051 - #47 1
+INFO  20:17:55,051 - #27 /
+INFO  20:17:55,051 - #47 4
+INFO  20:17:55,051 - #26 *
+INFO  20:17:55,051 - #16 (
+INFO  20:17:55,052 - #47 5
+INFO  20:17:55,052 - #28 %
+INFO  20:17:55,052 - #47 10
+INFO  20:17:55,052 - #17 )
+INFO  20:17:55,052 - #9 ;
+INFO  20:17:55,052 - #45 niz
+INFO  20:17:55,052 - #10 =
+INFO  20:17:55,052 - #29 new
+INFO  20:17:55,052 - #45 int
+INFO  20:17:55,052 - #12 [
+INFO  20:17:55,052 - #48 'c'
+INFO  20:17:55,052 - #13 ]
+INFO  20:17:55,052 - #9 ;
+INFO  20:17:55,052 - #45 kl
+INFO  20:17:55,052 - #10 =
+INFO  20:17:55,052 - #29 new
+INFO  20:17:55,052 - #45 int
+INFO  20:17:55,052 - #9 ;
+INFO  20:17:55,052 - #45 ch
+INFO  20:17:55,052 - #23 .
+INFO  20:17:55,052 - #45 polje
+INFO  20:17:55,052 - #10 =
+INFO  20:17:55,052 - #47 1
+INFO  20:17:55,052 - #9 ;
+INFO  20:17:55,053 - #45 niz
+INFO  20:17:55,053 - #12 [
+INFO  20:17:55,053 - #48 'c'
+INFO  20:17:55,053 - #13 ]
+INFO  20:17:55,053 - #10 =
+INFO  20:17:55,053 - #47 1
+INFO  20:17:55,053 - #9 ;
+INFO  20:17:55,053 - #45 dodelaProm
+INFO  20:17:55,053 - #12 [
+INFO  20:17:55,053 - #47 1
+INFO  20:17:55,053 - #13 ]
+INFO  20:17:55,053 - #10 =
+INFO  20:17:55,053 - #47 1
+INFO  20:17:55,053 - #9 ;
+INFO  20:17:55,053 - #7 }
+INFO  20:17:55,053 - #7 }
+INFO  20:17:55,061 - Program(
+  ProgName(
+   proba
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              Declarations(
+                NoDeclarations(
+                ) [NoDeclarations]
+                ConstDeclaration(
+                  ConstDeclNoError(
+                    ConstType(
+                      Type(
+                       int
+                      ) [Type]
+                    ) [ConstType]
+                    LastConstPart(
+                      ConstPart(
+                       dobraKonst
+                        NumConstAssign(
+                         1
+                        ) [NumConstAssign]
+                      ) [ConstPart]
+                    ) [LastConstPart]
+                  ) [ConstDeclNoError]
+                ) [ConstDeclaration]
+              ) [Declarations]
+              ConstDeclaration(
+                ConstDeclNoError(
+                  ConstType(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [ConstType]
+                  LastConstPart(
+                    ConstPart(
+                     k1
+                      CharConstAssign(
+                       'c'
+                      ) [CharConstAssign]
+                    ) [ConstPart]
+                  ) [LastConstPart]
+                ) [ConstDeclNoError]
+              ) [ConstDeclaration]
+            ) [Declarations]
+            ConstDeclaration(
+              ConstDeclNoError(
+                ConstType(
+                  Type(
+                   bool
+                  ) [Type]
+                ) [ConstType]
+                LastConstPart(
+                  ConstPart(
+                   k2
+                    NumConstAssign(
+                     1
+                    ) [NumConstAssign]
+                  ) [ConstPart]
+                ) [LastConstPart]
+              ) [ConstDeclNoError]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          ConstDeclaration(
+            ConstDeclNoError(
+              ConstType(
+                Type(
+                 char
+                ) [Type]
+              ) [ConstType]
+              LastConstPart(
+                ConstPart(
+                 k3
+                  NumConstAssign(
+                   1
+                  ) [NumConstAssign]
+                ) [ConstPart]
+              ) [LastConstPart]
+            ) [ConstDeclNoError]
+          ) [ConstDeclaration]
+        ) [Declarations]
+        VarDeclaration(
+          VarDeclNoError(
+            VarDeclType(
+              Type(
+               in
+              ) [Type]
+            ) [VarDeclType]
+            LastVarPart(
+              VarPartNoArray(
+               losTip
+              ) [VarPartNoArray]
+            ) [LastVarPart]
+          ) [VarDeclNoError]
+        ) [VarDeclaration]
+      ) [Declarations]
+      ClassDeclaration(
+        ClassDecl(
+          ClassName(
+           Klasa
+            NoExtendsT(
+            ) [NoExtendsT]
+          ) [ClassName]
+          Variables(
+            NoVariables(
+            ) [NoVariables]
+            VarDeclNoError(
+              VarDeclType(
+                Type(
+                 int
+                ) [Type]
+              ) [VarDeclType]
+              LastVarPart(
+                VarPartNoArray(
+                 polje
+                ) [VarPartNoArray]
+              ) [LastVarPart]
+            ) [VarDeclNoError]
+          ) [Variables]
+          CMDeclNoConstr(
+            NormalEndOfVariablesDecl(
+            ) [NormalEndOfVariablesDecl]
+            LastClassMethodDecl(
+              Method(
+                MethodTypeName(
+                  Type(
+                   void
+                  ) [Type]
+                 meth
+                ) [MethodTypeName]
+                FormParsExist(
+                  MoreFormParsList(
+                    LastFormParsPart(
+                      FormParsPartNoArray(
+                        Type(
+                         int
+                        ) [Type]
+                       p1
+                      ) [FormParsPartNoArray]
+                    ) [LastFormParsPart]
+                    FormParsPartNoArray(
+                      Type(
+                       char
+                      ) [Type]
+                     p2
+                    ) [FormParsPartNoArray]
+                  ) [MoreFormParsList]
+                ) [FormParsExist]
+                NoVariables(
+                ) [NoVariables]
+                StatementListStart(
+                ) [StatementListStart]
+                NoStatementList(
+                ) [NoStatementList]
+              ) [Method]
+            ) [LastClassMethodDecl]
+          ) [CMDeclNoConstr]
+        ) [ClassDecl]
+      ) [ClassDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarDeclNoError(
+        VarDeclType(
+          Type(
+           Klasa
+          ) [Type]
+        ) [VarDeclType]
+        LastVarPart(
+          VarPartNoArray(
+           kl
+          ) [VarPartNoArray]
+        ) [LastVarPart]
+      ) [VarDeclNoError]
+    ) [VarDeclaration]
+  ) [Declarations]
+  Methods(
+    Methods(
+      Methods(
+        Methods(
+          Methods(
+            NoMethods(
+            ) [NoMethods]
+            Method(
+              MethodTypeName(
+                Type(
+                 int
+                ) [Type]
+               metodaBezReturn
+              ) [MethodTypeName]
+              NoFormPars(
+              ) [NoFormPars]
+              NoVariables(
+              ) [NoVariables]
+              StatementListStart(
+              ) [StatementListStart]
+              NoStatementList(
+              ) [NoStatementList]
+            ) [Method]
+          ) [Methods]
+          Method(
+            MethodTypeName(
+              Type(
+               int
+              ) [Type]
+             metodaSaLosimReturn
+            ) [MethodTypeName]
+            NoFormPars(
+            ) [NoFormPars]
+            NoVariables(
+            ) [NoVariables]
+            StatementListStart(
+            ) [StatementListStart]
+            MoreStatementList(
+              MoreStatementList(
+                MoreStatementList(
+                  NoStatementList(
+                  ) [NoStatementList]
+                  NoLableStatement(
+                    SingStmtReturnExpr(
+                      Expr(
+                        SingleTerm(
+                          Term(
+                            SingleFactor(
+                              FactorAllocType(
+                                Type(
+                                 Klasa
+                                ) [Type]
+                              ) [FactorAllocType]
+                            ) [SingleFactor]
+                          ) [Term]
+                        ) [SingleTerm]
+                      ) [Expr]
+                    ) [SingStmtReturnExpr]
+                  ) [NoLableStatement]
+                ) [MoreStatementList]
+                NoLableStatement(
+                  SingStmtReturnExpr(
+                    Expr(
+                      SingleTerm(
+                        Term(
+                          SingleFactor(
+                            FactorVar(
+                              Designator(
+                                DesignatorNameIdent(
+                                 null
+                                ) [DesignatorNameIdent]
+                                NoDesignatorFields(
+                                ) [NoDesignatorFields]
+                              ) [Designator]
+                            ) [FactorVar]
+                          ) [SingleFactor]
+                        ) [Term]
+                      ) [SingleTerm]
+                    ) [Expr]
+                  ) [SingStmtReturnExpr]
+                ) [NoLableStatement]
+              ) [MoreStatementList]
+              NoLableStatement(
+                SingStmtReturn(
+                ) [SingStmtReturn]
+              ) [NoLableStatement]
+            ) [MoreStatementList]
+          ) [Method]
+        ) [Methods]
+        Method(
+          MethodTypeName(
+            Type(
+             void
+            ) [Type]
+           f
+          ) [MethodTypeName]
+          NoFormPars(
+          ) [NoFormPars]
+          NoVariables(
+          ) [NoVariables]
+          StatementListStart(
+          ) [StatementListStart]
+          NoStatementList(
+          ) [NoStatementList]
+        ) [Method]
+      ) [Methods]
+      Method(
+        MethodTypeName(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [MethodTypeName]
+        NoFormPars(
+        ) [NoFormPars]
+        NoVariables(
+        ) [NoVariables]
+        StatementListStart(
+        ) [StatementListStart]
+        MoreStatementList(
+          NoStatementList(
+          ) [NoStatementList]
+          NoLableStatement(
+            SingStmtReturnExpr(
+              Expr(
+                SingleTerm(
+                  Term(
+                    SingleFactor(
+                      FactorNumConst(
+                       1
+                      ) [FactorNumConst]
+                    ) [SingleFactor]
+                  ) [Term]
+                ) [SingleTerm]
+              ) [Expr]
+            ) [SingStmtReturnExpr]
+          ) [NoLableStatement]
+        ) [MoreStatementList]
+      ) [Method]
+    ) [Methods]
+    Method(
+      MethodTypeName(
+        Type(
+         void
+        ) [Type]
+       main
+      ) [MethodTypeName]
+      NoFormPars(
+      ) [NoFormPars]
+      Variables(
+        Variables(
+          Variables(
+            Variables(
+              Variables(
+                NoVariables(
+                ) [NoVariables]
+                VarDeclNoError(
+                  VarDeclType(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [VarDeclType]
+                  LastVarPart(
+                    VarPartNoArray(
+                     nijeNiz
+                    ) [VarPartNoArray]
+                  ) [LastVarPart]
+                ) [VarDeclNoError]
+              ) [Variables]
+              VarDeclNoError(
+                VarDeclType(
+                  Type(
+                   int
+                  ) [Type]
+                ) [VarDeclType]
+                LastVarPart(
+                  VarPartNoArray(
+                   dodelaProm
+                  ) [VarPartNoArray]
+                ) [LastVarPart]
+              ) [VarDeclNoError]
+            ) [Variables]
+            VarDeclNoError(
+              VarDeclType(
+                Type(
+                 int
+                ) [Type]
+              ) [VarDeclType]
+              LastVarPart(
+                VarPartArray(
+                 niz
+                ) [VarPartArray]
+              ) [LastVarPart]
+            ) [VarDeclNoError]
+          ) [Variables]
+          VarDeclNoError(
+            VarDeclType(
+              Type(
+               char
+              ) [Type]
+            ) [VarDeclType]
+            LastVarPart(
+              VarPartNoArray(
+               ch
+              ) [VarPartNoArray]
+            ) [LastVarPart]
+          ) [VarDeclNoError]
+        ) [Variables]
+        VarDeclNoError(
+          VarDeclType(
+            Type(
+             int
+            ) [Type]
+          ) [VarDeclType]
+          LastVarPart(
+            VarPartNoArray(
+             ifProm
+            ) [VarPartNoArray]
+          ) [LastVarPart]
+        ) [VarDeclNoError]
+      ) [Variables]
+      StatementListStart(
+      ) [StatementListStart]
+      MoreStatementList(
+        MoreStatementList(
+          MoreStatementList(
+            MoreStatementList(
+              MoreStatementList(
+                MoreStatementList(
+                  MoreStatementList(
+                    MoreStatementList(
+                      MoreStatementList(
+                        MoreStatementList(
+                          MoreStatementList(
+                            MoreStatementList(
+                              MoreStatementList(
+                                MoreStatementList(
+                                  MoreStatementList(
+                                    MoreStatementList(
+                                      MoreStatementList(
+                                        MoreStatementList(
+                                          MoreStatementList(
+                                            MoreStatementList(
+                                              MoreStatementList(
+                                                MoreStatementList(
+                                                  MoreStatementList(
+                                                    MoreStatementList(
+                                                      MoreStatementList(
+                                                        MoreStatementList(
+                                                          MoreStatementList(
+                                                            MoreStatementList(
+                                                              MoreStatementList(
+                                                                MoreStatementList(
+                                                                  NoStatementList(
+                                                                  ) [NoStatementList]
+                                                                  NoLableStatement(
+                                                                    SingStmtDesignatorStatement(
+                                                                      FuncCallDesOption(
+                                                                        StartFunctionCall(
+                                                                          Designator(
+                                                                            DesignatorNameIdent(
+                                                                             chr
+                                                                            ) [DesignatorNameIdent]
+                                                                            NoDesignatorFields(
+                                                                            ) [NoDesignatorFields]
+                                                                          ) [Designator]
+                                                                        ) [StartFunctionCall]
+                                                                        ActParsExist(
+                                                                          SingleExpr(
+                                                                            Expr(
+                                                                              SingleTerm(
+                                                                                Term(
+                                                                                  SingleFactor(
+                                                                                    FactorCharConst(
+                                                                                     'c'
+                                                                                    ) [FactorCharConst]
+                                                                                  ) [SingleFactor]
+                                                                                ) [Term]
+                                                                              ) [SingleTerm]
+                                                                            ) [Expr]
+                                                                          ) [SingleExpr]
+                                                                        ) [ActParsExist]
+                                                                      ) [FuncCallDesOption]
+                                                                    ) [SingStmtDesignatorStatement]
+                                                                  ) [NoLableStatement]
+                                                                ) [MoreStatementList]
+                                                                NoLableStatement(
+                                                                  SingStmtDesignatorStatement(
+                                                                    FuncCallDesOption(
+                                                                      StartFunctionCall(
+                                                                        Designator(
+                                                                          DesignatorNameIdent(
+                                                                           ord
+                                                                          ) [DesignatorNameIdent]
+                                                                          NoDesignatorFields(
+                                                                          ) [NoDesignatorFields]
+                                                                        ) [Designator]
+                                                                      ) [StartFunctionCall]
+                                                                      ActParsExist(
+                                                                        SingleExpr(
+                                                                          Expr(
+                                                                            SingleTerm(
+                                                                              Term(
+                                                                                SingleFactor(
+                                                                                  FactorNumConst(
+                                                                                   1
+                                                                                  ) [FactorNumConst]
+                                                                                ) [SingleFactor]
+                                                                              ) [Term]
+                                                                            ) [SingleTerm]
+                                                                          ) [Expr]
+                                                                        ) [SingleExpr]
+                                                                      ) [ActParsExist]
+                                                                    ) [FuncCallDesOption]
+                                                                  ) [SingStmtDesignatorStatement]
+                                                                ) [NoLableStatement]
+                                                              ) [MoreStatementList]
+                                                              NoLableStatement(
+                                                                SingStmtDesignatorStatement(
+                                                                  FuncCallDesOption(
+                                                                    StartFunctionCall(
+                                                                      Designator(
+                                                                        DesignatorNameIdent(
+                                                                         len
+                                                                        ) [DesignatorNameIdent]
+                                                                        NoDesignatorFields(
+                                                                        ) [NoDesignatorFields]
+                                                                      ) [Designator]
+                                                                    ) [StartFunctionCall]
+                                                                    ActParsExist(
+                                                                      SingleExpr(
+                                                                        Expr(
+                                                                          SingleTerm(
+                                                                            Term(
+                                                                              SingleFactor(
+                                                                                FactorVar(
+                                                                                  Designator(
+                                                                                    DesignatorNameIdent(
+                                                                                     nijeNiz
+                                                                                    ) [DesignatorNameIdent]
+                                                                                    NoDesignatorFields(
+                                                                                    ) [NoDesignatorFields]
+                                                                                  ) [Designator]
+                                                                                ) [FactorVar]
+                                                                              ) [SingleFactor]
+                                                                            ) [Term]
+                                                                          ) [SingleTerm]
+                                                                        ) [Expr]
+                                                                      ) [SingleExpr]
+                                                                    ) [ActParsExist]
+                                                                  ) [FuncCallDesOption]
+                                                                ) [SingStmtDesignatorStatement]
+                                                              ) [NoLableStatement]
+                                                            ) [MoreStatementList]
+                                                            NoLableStatement(
+                                                              SingStmtDesignatorStatement(
+                                                                AssignDesOption(
+                                                                  Designator(
+                                                                    DesignatorNameIdent(
+                                                                     f
+                                                                    ) [DesignatorNameIdent]
+                                                                    NoDesignatorFields(
+                                                                    ) [NoDesignatorFields]
+                                                                  ) [Designator]
+                                                                  Assignop(
+                                                                  ) [Assignop]
+                                                                  Expr(
+                                                                    SingleTerm(
+                                                                      Term(
+                                                                        SingleFactor(
+                                                                          FactorNumConst(
+                                                                           1
+                                                                          ) [FactorNumConst]
+                                                                        ) [SingleFactor]
+                                                                      ) [Term]
+                                                                    ) [SingleTerm]
+                                                                  ) [Expr]
+                                                                ) [AssignDesOption]
+                                                              ) [SingStmtDesignatorStatement]
+                                                            ) [NoLableStatement]
+                                                          ) [MoreStatementList]
+                                                          NoLableStatement(
+                                                            SingStmtDesignatorStatement(
+                                                              AssignDesOption(
+                                                                Designator(
+                                                                  DesignatorNameIdent(
+                                                                   dodelaProm
+                                                                  ) [DesignatorNameIdent]
+                                                                  NoDesignatorFields(
+                                                                  ) [NoDesignatorFields]
+                                                                ) [Designator]
+                                                                Assignop(
+                                                                ) [Assignop]
+                                                                Expr(
+                                                                  SingleTerm(
+                                                                    Term(
+                                                                      SingleFactor(
+                                                                        FactorCharConst(
+                                                                         'c'
+                                                                        ) [FactorCharConst]
+                                                                      ) [SingleFactor]
+                                                                    ) [Term]
+                                                                  ) [SingleTerm]
+                                                                ) [Expr]
+                                                              ) [AssignDesOption]
+                                                            ) [SingStmtDesignatorStatement]
+                                                          ) [NoLableStatement]
+                                                        ) [MoreStatementList]
+                                                        NoLableStatement(
+                                                          SingStmtDesignatorStatement(
+                                                            AssignDesOption(
+                                                              Designator(
+                                                                DesignatorNameIdent(
+                                                                 kl
+                                                                ) [DesignatorNameIdent]
+                                                                NoDesignatorFields(
+                                                                ) [NoDesignatorFields]
+                                                              ) [Designator]
+                                                              Assignop(
+                                                              ) [Assignop]
+                                                              Expr(
+                                                                MoreTerm(
+                                                                  SingleTerm(
+                                                                    Term(
+                                                                      SingleFactor(
+                                                                        FactorVar(
+                                                                          Designator(
+                                                                            DesignatorNameIdent(
+                                                                             dodelaProm
+                                                                            ) [DesignatorNameIdent]
+                                                                            NoDesignatorFields(
+                                                                            ) [NoDesignatorFields]
+                                                                          ) [Designator]
+                                                                        ) [FactorVar]
+                                                                      ) [SingleFactor]
+                                                                    ) [Term]
+                                                                  ) [SingleTerm]
+                                                                  PlusOp(
+                                                                  ) [PlusOp]
+                                                                  Term(
+                                                                    SingleFactor(
+                                                                      FactorNumConst(
+                                                                       1
+                                                                      ) [FactorNumConst]
+                                                                    ) [SingleFactor]
+                                                                  ) [Term]
+                                                                ) [MoreTerm]
+                                                              ) [Expr]
+                                                            ) [AssignDesOption]
+                                                          ) [SingStmtDesignatorStatement]
+                                                        ) [NoLableStatement]
+                                                      ) [MoreStatementList]
+                                                      NoLableStatement(
+                                                        SingStmtDesignatorStatement(
+                                                          IncDesOption(
+                                                            Designator(
+                                                              DesignatorNameIdent(
+                                                               kl
+                                                              ) [DesignatorNameIdent]
+                                                              NoDesignatorFields(
+                                                              ) [NoDesignatorFields]
+                                                            ) [Designator]
+                                                          ) [IncDesOption]
+                                                        ) [SingStmtDesignatorStatement]
+                                                      ) [NoLableStatement]
+                                                    ) [MoreStatementList]
+                                                    NoLableStatement(
+                                                      SingStmtDesignatorStatement(
+                                                        IncDesOption(
+                                                          Designator(
+                                                            DesignatorNameIdent(
+                                                             dobraKonst
+                                                            ) [DesignatorNameIdent]
+                                                            NoDesignatorFields(
+                                                            ) [NoDesignatorFields]
+                                                          ) [Designator]
+                                                        ) [IncDesOption]
+                                                      ) [SingStmtDesignatorStatement]
+                                                    ) [NoLableStatement]
+                                                  ) [MoreStatementList]
+                                                  NoLableStatement(
+                                                    SingStmtDesignatorStatement(
+                                                      DecDesOption(
+                                                        Designator(
+                                                          DesignatorNameIdent(
+                                                           niz
+                                                          ) [DesignatorNameIdent]
+                                                          NoDesignatorFields(
+                                                          ) [NoDesignatorFields]
+                                                        ) [Designator]
+                                                      ) [DecDesOption]
+                                                    ) [SingStmtDesignatorStatement]
+                                                  ) [NoLableStatement]
+                                                ) [MoreStatementList]
+                                                NoLableStatement(
+                                                  SingStmtDesignatorStatement(
+                                                    DecDesOption(
+                                                      Designator(
+                                                        DesignatorNameIdent(
+                                                         ch
+                                                        ) [DesignatorNameIdent]
+                                                        NoDesignatorFields(
+                                                        ) [NoDesignatorFields]
+                                                      ) [Designator]
+                                                    ) [DecDesOption]
+                                                  ) [SingStmtDesignatorStatement]
+                                                ) [NoLableStatement]
+                                              ) [MoreStatementList]
+                                              NoLableStatement(
+                                                SingStmtDesignatorStatement(
+                                                  FuncCallDesOption(
+                                                    StartFunctionCall(
+                                                      Designator(
+                                                        DesignatorNameIdent(
+                                                         ch
+                                                        ) [DesignatorNameIdent]
+                                                        NoDesignatorFields(
+                                                        ) [NoDesignatorFields]
+                                                      ) [Designator]
+                                                    ) [StartFunctionCall]
+                                                    NoActPars(
+                                                    ) [NoActPars]
+                                                  ) [FuncCallDesOption]
+                                                ) [SingStmtDesignatorStatement]
+                                              ) [NoLableStatement]
+                                            ) [MoreStatementList]
+                                            NoLableStatement(
+                                              SingStmtDesignatorStatement(
+                                                FuncCallDesOption(
+                                                  StartFunctionCall(
+                                                    Designator(
+                                                      DesignatorNameIdent(
+                                                       kl
+                                                      ) [DesignatorNameIdent]
+                                                      DesignatorFieldsExist(
+                                                        NoDesignatorFields(
+                                                        ) [NoDesignatorFields]
+                                                        ClassField(
+                                                         polje
+                                                        ) [ClassField]
+                                                      ) [DesignatorFieldsExist]
+                                                    ) [Designator]
+                                                  ) [StartFunctionCall]
+                                                  NoActPars(
+                                                  ) [NoActPars]
+                                                ) [FuncCallDesOption]
+                                              ) [SingStmtDesignatorStatement]
+                                            ) [NoLableStatement]
+                                          ) [MoreStatementList]
+                                          NoLableStatement(
+                                            SingStmtBreak(
+                                            ) [SingStmtBreak]
+                                          ) [NoLableStatement]
+                                        ) [MoreStatementList]
+                                        NoLableStatement(
+                                          SingStmtContinue(
+                                          ) [SingStmtContinue]
+                                        ) [NoLableStatement]
+                                      ) [MoreStatementList]
+                                      NoLableStatement(
+                                        SingStmtIf(
+                                          ConditionNoError(
+                                            SingleCondTerm(
+                                              CondTerm(
+                                                SingleCondFact(
+                                                  RelopCondFactExpr(
+                                                    Expr(
+                                                      SingleTerm(
+                                                        Term(
+                                                          SingleFactor(
+                                                            FactorNumConst(
+                                                             1
+                                                            ) [FactorNumConst]
+                                                          ) [SingleFactor]
+                                                        ) [Term]
+                                                      ) [SingleTerm]
+                                                    ) [Expr]
+                                                    LessOp(
+                                                    ) [LessOp]
+                                                    Expr(
+                                                      SingleTerm(
+                                                        Term(
+                                                          SingleFactor(
+                                                            FactorNumConst(
+                                                             2
+                                                            ) [FactorNumConst]
+                                                          ) [SingleFactor]
+                                                        ) [Term]
+                                                      ) [SingleTerm]
+                                                    ) [Expr]
+                                                  ) [RelopCondFactExpr]
+                                                ) [SingleCondFact]
+                                              ) [CondTerm]
+                                            ) [SingleCondTerm]
+                                          ) [ConditionNoError]
+                                          ThenStart(
+                                          ) [ThenStart]
+                                          MultyStatement(
+                                            Statements(
+                                              MoreStatementList(
+                                                MoreStatementList(
+                                                  NoStatementList(
+                                                  ) [NoStatementList]
+                                                  NoLableStatement(
+                                                    SingStmtBreak(
+                                                    ) [SingStmtBreak]
+                                                  ) [NoLableStatement]
+                                                ) [MoreStatementList]
+                                                NoLableStatement(
+                                                  SingStmtContinue(
+                                                  ) [SingStmtContinue]
+                                                ) [NoLableStatement]
+                                              ) [MoreStatementList]
+                                            ) [Statements]
+                                          ) [MultyStatement]
+                                        ) [SingStmtIf]
+                                      ) [NoLableStatement]
+                                    ) [MoreStatementList]
+                                    NoLableStatement(
+                                      SingStmtRead(
+                                        Designator(
+                                          DesignatorNameIdent(
+                                           f
+                                          ) [DesignatorNameIdent]
+                                          NoDesignatorFields(
+                                          ) [NoDesignatorFields]
+                                        ) [Designator]
+                                      ) [SingStmtRead]
+                                    ) [NoLableStatement]
+                                  ) [MoreStatementList]
+                                  NoLableStatement(
+                                    SingStmtRead(
+                                      Designator(
+                                        DesignatorNameIdent(
+                                         kl
+                                        ) [DesignatorNameIdent]
+                                        NoDesignatorFields(
+                                        ) [NoDesignatorFields]
+                                      ) [Designator]
+                                    ) [SingStmtRead]
+                                  ) [NoLableStatement]
+                                ) [MoreStatementList]
+                                NoLableStatement(
+                                  SingStmtPrintNumConst(
+                                    Expr(
+                                      SingleTerm(
+                                        Term(
+                                          SingleFactor(
+                                            FactorVar(
+                                              Designator(
+                                                DesignatorNameIdent(
+                                                 kl
+                                                ) [DesignatorNameIdent]
+                                                NoDesignatorFields(
+                                                ) [NoDesignatorFields]
+                                              ) [Designator]
+                                            ) [FactorVar]
+                                          ) [SingleFactor]
+                                        ) [Term]
+                                      ) [SingleTerm]
+                                    ) [Expr]
+                                   2
+                                  ) [SingStmtPrintNumConst]
+                                ) [NoLableStatement]
+                              ) [MoreStatementList]
+                              NoLableStatement(
+                                SingStmtPrintNumConst(
+                                  Expr(
+                                    SingleTerm(
+                                      Term(
+                                        SingleFactor(
+                                          FactorVar(
+                                            Designator(
+                                              DesignatorNameIdent(
+                                               f
+                                              ) [DesignatorNameIdent]
+                                              NoDesignatorFields(
+                                              ) [NoDesignatorFields]
+                                            ) [Designator]
+                                          ) [FactorVar]
+                                        ) [SingleFactor]
+                                      ) [Term]
+                                    ) [SingleTerm]
+                                  ) [Expr]
+                                 2
+                                ) [SingStmtPrintNumConst]
+                              ) [NoLableStatement]
+                            ) [MoreStatementList]
+                            NoLableStatement(
+                              SingStmtIfElse(
+                                ConditionNoError(
+                                  SingleCondTerm(
+                                    CondTerm(
+                                      SingleCondFact(
+                                        SingleCondFactExpr(
+                                          Expr(
+                                            SingleTerm(
+                                              Term(
+                                                SingleFactor(
+                                                  FactorVar(
+                                                    Designator(
+                                                      DesignatorNameIdent(
+                                                       kl
+                                                      ) [DesignatorNameIdent]
+                                                      NoDesignatorFields(
+                                                      ) [NoDesignatorFields]
+                                                    ) [Designator]
+                                                  ) [FactorVar]
+                                                ) [SingleFactor]
+                                              ) [Term]
+                                            ) [SingleTerm]
+                                          ) [Expr]
+                                        ) [SingleCondFactExpr]
+                                      ) [SingleCondFact]
+                                    ) [CondTerm]
+                                  ) [SingleCondTerm]
+                                ) [ConditionNoError]
+                                ThenStart(
+                                ) [ThenStart]
+                                MultyStatement(
+                                  Statements(
+                                    MoreStatementList(
+                                      MoreStatementList(
+                                        NoStatementList(
+                                        ) [NoStatementList]
+                                        NoLableStatement(
+                                          SingStmtIf(
+                                            ConditionNoError(
+                                              SingleCondTerm(
+                                                CondTerm(
+                                                  SingleCondFact(
+                                                    RelopCondFactExpr(
+                                                      Expr(
+                                                        SingleTerm(
+                                                          Term(
+                                                            SingleFactor(
+                                                              FactorVar(
+                                                                Designator(
+                                                                  DesignatorNameIdent(
+                                                                   kl
+                                                                  ) [DesignatorNameIdent]
+                                                                  NoDesignatorFields(
+                                                                  ) [NoDesignatorFields]
+                                                                ) [Designator]
+                                                              ) [FactorVar]
+                                                            ) [SingleFactor]
+                                                          ) [Term]
+                                                        ) [SingleTerm]
+                                                      ) [Expr]
+                                                      GrtOp(
+                                                      ) [GrtOp]
+                                                      Expr(
+                                                        SingleTerm(
+                                                          Term(
+                                                            SingleFactor(
+                                                              FactorNumConst(
+                                                               1
+                                                              ) [FactorNumConst]
+                                                            ) [SingleFactor]
+                                                          ) [Term]
+                                                        ) [SingleTerm]
+                                                      ) [Expr]
+                                                    ) [RelopCondFactExpr]
+                                                  ) [SingleCondFact]
+                                                ) [CondTerm]
+                                              ) [SingleCondTerm]
+                                            ) [ConditionNoError]
+                                            ThenStart(
+                                            ) [ThenStart]
+                                            MultyStatement(
+                                              Statements(
+                                                NoStatementList(
+                                                ) [NoStatementList]
+                                              ) [Statements]
+                                            ) [MultyStatement]
+                                          ) [SingStmtIf]
+                                        ) [NoLableStatement]
+                                      ) [MoreStatementList]
+                                      NoLableStatement(
+                                        SingStmtIf(
+                                          ConditionNoError(
+                                            SingleCondTerm(
+                                              CondTerm(
+                                                SingleCondFact(
+                                                  RelopCondFactExpr(
+                                                    Expr(
+                                                      SingleTerm(
+                                                        Term(
+                                                          SingleFactor(
+                                                            FactorVar(
+                                                              Designator(
+                                                                DesignatorNameIdent(
+                                                                 niz
+                                                                ) [DesignatorNameIdent]
+                                                                NoDesignatorFields(
+                                                                ) [NoDesignatorFields]
+                                                              ) [Designator]
+                                                            ) [FactorVar]
+                                                          ) [SingleFactor]
+                                                        ) [Term]
+                                                      ) [SingleTerm]
+                                                    ) [Expr]
+                                                    GrtOp(
+                                                    ) [GrtOp]
+                                                    Expr(
+                                                      SingleTerm(
+                                                        Term(
+                                                          SingleFactor(
+                                                            FactorNumConst(
+                                                             1
+                                                            ) [FactorNumConst]
+                                                          ) [SingleFactor]
+                                                        ) [Term]
+                                                      ) [SingleTerm]
+                                                    ) [Expr]
+                                                  ) [RelopCondFactExpr]
+                                                ) [SingleCondFact]
+                                              ) [CondTerm]
+                                            ) [SingleCondTerm]
+                                          ) [ConditionNoError]
+                                          ThenStart(
+                                          ) [ThenStart]
+                                          MultyStatement(
+                                            Statements(
+                                              NoStatementList(
+                                              ) [NoStatementList]
+                                            ) [Statements]
+                                          ) [MultyStatement]
+                                        ) [SingStmtIf]
+                                      ) [NoLableStatement]
+                                    ) [MoreStatementList]
+                                  ) [Statements]
+                                ) [MultyStatement]
+                                ElseStart(
+                                ) [ElseStart]
+                                NoLableStatement(
+                                  SingStmtIf(
+                                    ConditionNoError(
+                                      SingleCondTerm(
+                                        CondTerm(
+                                          MoreCondFact(
+                                            SingleCondFact(
+                                              RelopCondFactExpr(
+                                                Expr(
+                                                  SingleTerm(
+                                                    Term(
+                                                      SingleFactor(
+                                                        FactorCharConst(
+                                                         'c'
+                                                        ) [FactorCharConst]
+                                                      ) [SingleFactor]
+                                                    ) [Term]
+                                                  ) [SingleTerm]
+                                                ) [Expr]
+                                                EqualOp(
+                                                ) [EqualOp]
+                                                Expr(
+                                                  SingleTerm(
+                                                    Term(
+                                                      SingleFactor(
+                                                        FactorNumConst(
+                                                         1
+                                                        ) [FactorNumConst]
+                                                      ) [SingleFactor]
+                                                    ) [Term]
+                                                  ) [SingleTerm]
+                                                ) [Expr]
+                                              ) [RelopCondFactExpr]
+                                            ) [SingleCondFact]
+                                            RelopCondFactExpr(
+                                              Expr(
+                                                SingleTerm(
+                                                  Term(
+                                                    SingleFactor(
+                                                      FactorVar(
+                                                        Designator(
+                                                          DesignatorNameIdent(
+                                                           ifProm
+                                                          ) [DesignatorNameIdent]
+                                                          NoDesignatorFields(
+                                                          ) [NoDesignatorFields]
+                                                        ) [Designator]
+                                                      ) [FactorVar]
+                                                    ) [SingleFactor]
+                                                  ) [Term]
+                                                ) [SingleTerm]
+                                              ) [Expr]
+                                              EqualOp(
+                                              ) [EqualOp]
+                                              Expr(
+                                                SingleTerm(
+                                                  Term(
+                                                    SingleFactor(
+                                                      FactorVar(
+                                                        Designator(
+                                                          DesignatorNameIdent(
+                                                           null
+                                                          ) [DesignatorNameIdent]
+                                                          NoDesignatorFields(
+                                                          ) [NoDesignatorFields]
+                                                        ) [Designator]
+                                                      ) [FactorVar]
+                                                    ) [SingleFactor]
+                                                  ) [Term]
+                                                ) [SingleTerm]
+                                              ) [Expr]
+                                            ) [RelopCondFactExpr]
+                                          ) [MoreCondFact]
+                                        ) [CondTerm]
+                                      ) [SingleCondTerm]
+                                    ) [ConditionNoError]
+                                    ThenStart(
+                                    ) [ThenStart]
+                                    MultyStatement(
+                                      Statements(
+                                        MoreStatementList(
+                                          NoStatementList(
+                                          ) [NoStatementList]
+                                          NoLableStatement(
+                                            SingStmtDoWhile(
+                                              DoWhileStart(
+                                              ) [DoWhileStart]
+                                              MultyStatement(
+                                                Statements(
+                                                  NoStatementList(
+                                                  ) [NoStatementList]
+                                                ) [Statements]
+                                              ) [MultyStatement]
+                                              DoWhileCondStart(
+                                              ) [DoWhileCondStart]
+                                              ConditionNoError(
+                                                SingleCondTerm(
+                                                  CondTerm(
+                                                    MoreCondFact(
+                                                      SingleCondFact(
+                                                        SingleCondFactExpr(
+                                                          Expr(
+                                                            SingleTerm(
+                                                              Term(
+                                                                SingleFactor(
+                                                                  FactorVar(
+                                                                    Designator(
+                                                                      DesignatorNameIdent(
+                                                                       ch
+                                                                      ) [DesignatorNameIdent]
+                                                                      NoDesignatorFields(
+                                                                      ) [NoDesignatorFields]
+                                                                    ) [Designator]
+                                                                  ) [FactorVar]
+                                                                ) [SingleFactor]
+                                                              ) [Term]
+                                                            ) [SingleTerm]
+                                                          ) [Expr]
+                                                        ) [SingleCondFactExpr]
+                                                      ) [SingleCondFact]
+                                                      SingleCondFactExpr(
+                                                        Expr(
+                                                          SingleTerm(
+                                                            Term(
+                                                              SingleFactor(
+                                                                FactorNumConst(
+                                                                 1
+                                                                ) [FactorNumConst]
+                                                              ) [SingleFactor]
+                                                            ) [Term]
+                                                          ) [SingleTerm]
+                                                        ) [Expr]
+                                                      ) [SingleCondFactExpr]
+                                                    ) [MoreCondFact]
+                                                  ) [CondTerm]
+                                                ) [SingleCondTerm]
+                                              ) [ConditionNoError]
+                                            ) [SingStmtDoWhile]
+                                          ) [NoLableStatement]
+                                        ) [MoreStatementList]
+                                      ) [Statements]
+                                    ) [MultyStatement]
+                                  ) [SingStmtIf]
+                                ) [NoLableStatement]
+                              ) [SingStmtIfElse]
+                            ) [NoLableStatement]
+                          ) [MoreStatementList]
+                          NoLableStatement(
+                            SingStmtDesignatorStatement(
+                              FuncCallDesOption(
+                                StartFunctionCall(
+                                  Designator(
+                                    DesignatorNameIdent(
+                                     kl
+                                    ) [DesignatorNameIdent]
+                                    DesignatorFieldsExist(
+                                      NoDesignatorFields(
+                                      ) [NoDesignatorFields]
+                                      ClassField(
+                                       meth
+                                      ) [ClassField]
+                                    ) [DesignatorFieldsExist]
+                                  ) [Designator]
+                                ) [StartFunctionCall]
+                                ActParsExist(
+                                  SingleExpr(
+                                    Expr(
+                                      SingleTerm(
+                                        Term(
+                                          SingleFactor(
+                                            FactorNumConst(
+                                             1
+                                            ) [FactorNumConst]
+                                          ) [SingleFactor]
+                                        ) [Term]
+                                      ) [SingleTerm]
+                                    ) [Expr]
+                                  ) [SingleExpr]
+                                ) [ActParsExist]
+                              ) [FuncCallDesOption]
+                            ) [SingStmtDesignatorStatement]
+                          ) [NoLableStatement]
+                        ) [MoreStatementList]
+                        NoLableStatement(
+                          SingStmtDesignatorStatement(
+                            FuncCallDesOption(
+                              StartFunctionCall(
+                                Designator(
+                                  DesignatorNameIdent(
+                                   kl
+                                  ) [DesignatorNameIdent]
+                                  DesignatorFieldsExist(
+                                    NoDesignatorFields(
+                                    ) [NoDesignatorFields]
+                                    ClassField(
+                                     meth
+                                    ) [ClassField]
+                                  ) [DesignatorFieldsExist]
+                                ) [Designator]
+                              ) [StartFunctionCall]
+                              ActParsExist(
+                                MoreExpr(
+                                  SingleExpr(
+                                    Expr(
+                                      SingleTerm(
+                                        Term(
+                                          SingleFactor(
+                                            FactorCharConst(
+                                             'c'
+                                            ) [FactorCharConst]
+                                          ) [SingleFactor]
+                                        ) [Term]
+                                      ) [SingleTerm]
+                                    ) [Expr]
+                                  ) [SingleExpr]
+                                  Expr(
+                                    SingleTerm(
+                                      Term(
+                                        SingleFactor(
+                                          FactorNumConst(
+                                           1
+                                          ) [FactorNumConst]
+                                        ) [SingleFactor]
+                                      ) [Term]
+                                    ) [SingleTerm]
+                                  ) [Expr]
+                                ) [MoreExpr]
+                              ) [ActParsExist]
+                            ) [FuncCallDesOption]
+                          ) [SingStmtDesignatorStatement]
+                        ) [NoLableStatement]
+                      ) [MoreStatementList]
+                      NoLableStatement(
+                        SingStmtDesignatorStatement(
+                          AssignDesOption(
+                            Designator(
+                              DesignatorNameIdent(
+                               dodelaProm
+                              ) [DesignatorNameIdent]
+                              NoDesignatorFields(
+                              ) [NoDesignatorFields]
+                            ) [Designator]
+                            Assignop(
+                            ) [Assignop]
+                            Expr(
+                              SingleTerm(
+                                Term(
+                                  MinusFactor(
+                                    FactorCharConst(
+                                     'c'
+                                    ) [FactorCharConst]
+                                  ) [MinusFactor]
+                                ) [Term]
+                              ) [SingleTerm]
+                            ) [Expr]
+                          ) [AssignDesOption]
+                        ) [SingStmtDesignatorStatement]
+                      ) [NoLableStatement]
+                    ) [MoreStatementList]
+                    NoLableStatement(
+                      SingStmtDesignatorStatement(
+                        AssignDesOption(
+                          Designator(
+                            DesignatorNameIdent(
+                             dodelaProm
+                            ) [DesignatorNameIdent]
+                            NoDesignatorFields(
+                            ) [NoDesignatorFields]
+                          ) [Designator]
+                          Assignop(
+                          ) [Assignop]
+                          Expr(
+                            MoreTerm(
+                              MoreTerm(
+                                SingleTerm(
+                                  Term(
+                                    SingleFactor(
+                                      FactorVar(
+                                        Designator(
+                                          DesignatorNameIdent(
+                                           ch
+                                          ) [DesignatorNameIdent]
+                                          NoDesignatorFields(
+                                          ) [NoDesignatorFields]
+                                        ) [Designator]
+                                      ) [FactorVar]
+                                    ) [SingleFactor]
+                                  ) [Term]
+                                ) [SingleTerm]
+                                PlusOp(
+                                ) [PlusOp]
+                                Term(
+                                  SingleFactor(
+                                    FactorNumConst(
+                                     1
+                                    ) [FactorNumConst]
+                                  ) [SingleFactor]
+                                ) [Term]
+                              ) [MoreTerm]
+                              PlusOp(
+                              ) [PlusOp]
+                              Term(
+                                SingleFactor(
+                                  FactorVar(
+                                    Designator(
+                                      DesignatorNameIdent(
+                                       kl
+                                      ) [DesignatorNameIdent]
+                                      NoDesignatorFields(
+                                      ) [NoDesignatorFields]
+                                    ) [Designator]
+                                  ) [FactorVar]
+                                ) [SingleFactor]
+                              ) [Term]
+                            ) [MoreTerm]
+                          ) [Expr]
+                        ) [AssignDesOption]
+                      ) [SingStmtDesignatorStatement]
+                    ) [NoLableStatement]
+                  ) [MoreStatementList]
+                  NoLableStatement(
+                    SingStmtDesignatorStatement(
+                      AssignDesOption(
+                        Designator(
+                          DesignatorNameIdent(
+                           dodelaProm
+                          ) [DesignatorNameIdent]
+                          NoDesignatorFields(
+                          ) [NoDesignatorFields]
+                        ) [Designator]
+                        Assignop(
+                        ) [Assignop]
+                        Expr(
+                          SingleTerm(
+                            Term(
+                              MoreFactor(
+                                MoreFactor(
+                                  MoreFactor(
+                                    SingleFactor(
+                                      FactorVar(
+                                        Designator(
+                                          DesignatorNameIdent(
+                                           ch
+                                          ) [DesignatorNameIdent]
+                                          NoDesignatorFields(
+                                          ) [NoDesignatorFields]
+                                        ) [Designator]
+                                      ) [FactorVar]
+                                    ) [SingleFactor]
+                                    StarOp(
+                                    ) [StarOp]
+                                    FactorNumConst(
+                                     1
+                                    ) [FactorNumConst]
+                                  ) [MoreFactor]
+                                  DivideOp(
+                                  ) [DivideOp]
+                                  FactorNumConst(
+                                   4
+                                  ) [FactorNumConst]
+                                ) [MoreFactor]
+                                StarOp(
+                                ) [StarOp]
+                                FactorParentheses(
+                                  Expr(
+                                    SingleTerm(
+                                      Term(
+                                        MoreFactor(
+                                          SingleFactor(
+                                            FactorNumConst(
+                                             5
+                                            ) [FactorNumConst]
+                                          ) [SingleFactor]
+                                          ModOp(
+                                          ) [ModOp]
+                                          FactorNumConst(
+                                           10
+                                          ) [FactorNumConst]
+                                        ) [MoreFactor]
+                                      ) [Term]
+                                    ) [SingleTerm]
+                                  ) [Expr]
+                                ) [FactorParentheses]
+                              ) [MoreFactor]
+                            ) [Term]
+                          ) [SingleTerm]
+                        ) [Expr]
+                      ) [AssignDesOption]
+                    ) [SingStmtDesignatorStatement]
+                  ) [NoLableStatement]
+                ) [MoreStatementList]
+                NoLableStatement(
+                  SingStmtDesignatorStatement(
+                    AssignDesOption(
+                      Designator(
+                        DesignatorNameIdent(
+                         niz
+                        ) [DesignatorNameIdent]
+                        NoDesignatorFields(
+                        ) [NoDesignatorFields]
+                      ) [Designator]
+                      Assignop(
+                      ) [Assignop]
+                      Expr(
+                        SingleTerm(
+                          Term(
+                            SingleFactor(
+                              FactorAllocArray(
+                                Type(
+                                 int
+                                ) [Type]
+                                Expr(
+                                  SingleTerm(
+                                    Term(
+                                      SingleFactor(
+                                        FactorCharConst(
+                                         'c'
+                                        ) [FactorCharConst]
+                                      ) [SingleFactor]
+                                    ) [Term]
+                                  ) [SingleTerm]
+                                ) [Expr]
+                              ) [FactorAllocArray]
+                            ) [SingleFactor]
+                          ) [Term]
+                        ) [SingleTerm]
+                      ) [Expr]
+                    ) [AssignDesOption]
+                  ) [SingStmtDesignatorStatement]
+                ) [NoLableStatement]
+              ) [MoreStatementList]
+              NoLableStatement(
+                SingStmtDesignatorStatement(
+                  AssignDesOption(
+                    Designator(
+                      DesignatorNameIdent(
+                       kl
+                      ) [DesignatorNameIdent]
+                      NoDesignatorFields(
+                      ) [NoDesignatorFields]
+                    ) [Designator]
+                    Assignop(
+                    ) [Assignop]
+                    Expr(
+                      SingleTerm(
+                        Term(
+                          SingleFactor(
+                            FactorAllocType(
+                              Type(
+                               int
+                              ) [Type]
+                            ) [FactorAllocType]
+                          ) [SingleFactor]
+                        ) [Term]
+                      ) [SingleTerm]
+                    ) [Expr]
+                  ) [AssignDesOption]
+                ) [SingStmtDesignatorStatement]
+              ) [NoLableStatement]
+            ) [MoreStatementList]
+            NoLableStatement(
+              SingStmtDesignatorStatement(
+                AssignDesOption(
+                  Designator(
+                    DesignatorNameIdent(
+                     ch
+                    ) [DesignatorNameIdent]
+                    DesignatorFieldsExist(
+                      NoDesignatorFields(
+                      ) [NoDesignatorFields]
+                      ClassField(
+                       polje
+                      ) [ClassField]
+                    ) [DesignatorFieldsExist]
+                  ) [Designator]
+                  Assignop(
+                  ) [Assignop]
+                  Expr(
+                    SingleTerm(
+                      Term(
+                        SingleFactor(
+                          FactorNumConst(
+                           1
+                          ) [FactorNumConst]
+                        ) [SingleFactor]
+                      ) [Term]
+                    ) [SingleTerm]
+                  ) [Expr]
+                ) [AssignDesOption]
+              ) [SingStmtDesignatorStatement]
+            ) [NoLableStatement]
+          ) [MoreStatementList]
+          NoLableStatement(
+            SingStmtDesignatorStatement(
+              AssignDesOption(
+                Designator(
+                  DesignatorNameIdent(
+                   niz
+                  ) [DesignatorNameIdent]
+                  DesignatorFieldsExist(
+                    NoDesignatorFields(
+                    ) [NoDesignatorFields]
+                    ArrayElem(
+                      ArrayElemStart(
+                      ) [ArrayElemStart]
+                      Expr(
+                        SingleTerm(
+                          Term(
+                            SingleFactor(
+                              FactorCharConst(
+                               'c'
+                              ) [FactorCharConst]
+                            ) [SingleFactor]
+                          ) [Term]
+                        ) [SingleTerm]
+                      ) [Expr]
+                    ) [ArrayElem]
+                  ) [DesignatorFieldsExist]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  SingleTerm(
+                    Term(
+                      SingleFactor(
+                        FactorNumConst(
+                         1
+                        ) [FactorNumConst]
+                      ) [SingleFactor]
+                    ) [Term]
+                  ) [SingleTerm]
+                ) [Expr]
+              ) [AssignDesOption]
+            ) [SingStmtDesignatorStatement]
+          ) [NoLableStatement]
+        ) [MoreStatementList]
+        NoLableStatement(
+          SingStmtDesignatorStatement(
+            AssignDesOption(
+              Designator(
+                DesignatorNameIdent(
+                 dodelaProm
+                ) [DesignatorNameIdent]
+                DesignatorFieldsExist(
+                  NoDesignatorFields(
+                  ) [NoDesignatorFields]
+                  ArrayElem(
+                    ArrayElemStart(
+                    ) [ArrayElemStart]
+                    Expr(
+                      SingleTerm(
+                        Term(
+                          SingleFactor(
+                            FactorNumConst(
+                             1
+                            ) [FactorNumConst]
+                          ) [SingleFactor]
+                        ) [Term]
+                      ) [SingleTerm]
+                    ) [Expr]
+                  ) [ArrayElem]
+                ) [DesignatorFieldsExist]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                SingleTerm(
+                  Term(
+                    SingleFactor(
+                      FactorNumConst(
+                       1
+                      ) [FactorNumConst]
+                    ) [SingleFactor]
+                  ) [Term]
+                ) [SingleTerm]
+              ) [Expr]
+            ) [AssignDesOption]
+          ) [SingStmtDesignatorStatement]
+        ) [NoLableStatement]
+      ) [MoreStatementList]
+    ) [Method]
+  ) [Methods]
+) [Program]
+INFO  20:17:55,063 - ===================================
+INFO  20:17:55,067 - Pretraga na 22 pravljenje objekta klase Klasa
+INFO  20:17:55,068 - Pretraga na 23(null), pristup globalnoj promenljivi ---> Con null: class, 0, 0 
+INFO  20:17:55,068 - Pretraga na 37(chr), poziv globalne funkcije ---> Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+INFO  20:17:55,068 - Pretraga na 38(ord), poziv globalne funkcije ---> Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+INFO  20:17:55,068 - Pretraga na 39(len), poziv globalne funkcije ---> Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+INFO  20:17:55,068 - Pretraga na 39(nijeNiz), pristup lokalnoj promenljivi ---> Var nijeNiz: int, 0, 1 
+INFO  20:17:55,068 - Pretraga na 43(dodelaProm), pristup lokalnoj promenljivi ---> Var dodelaProm: int, 1, 1 
+INFO  20:17:55,068 - Pretraga na 45(kl), pristup globalnoj promenljivi ---> Var kl: class, 1, 0 
+INFO  20:17:55,068 - Pretraga na 45(dodelaProm), pristup lokalnoj promenljivi ---> Var dodelaProm: int, 1, 1 
+INFO  20:17:55,068 - Pretraga na 47(kl), pristup globalnoj promenljivi ---> Var kl: class, 1, 0 
+INFO  20:17:55,068 - Pretraga na 48(dobraKonst), pristup globalnoj promenljivi ---> Con dobraKonst: int, 1, 0 
+INFO  20:17:55,068 - Pretraga na 49(niz), pristup lokalnoj promenljivi ---> Var niz: Arr of int, 2, 1 
+INFO  20:17:55,068 - Pretraga na 50(ch), pristup lokalnoj promenljivi ---> Var ch: char, 3, 1 
+INFO  20:17:55,069 - Pretraga na 52(ch), pristup lokalnoj promenljivi ---> Var ch: char, 3, 1 
+INFO  20:17:55,069 - Pretraga na 53(polje), pristup polju klase ---> Fld polje: int, 1, 1 
+INFO  20:17:55,069 - Pretraga na 63(kl), pristup globalnoj promenljivi ---> Var kl: class, 1, 0 
+INFO  20:17:55,069 - Pretraga na 65(kl), pristup globalnoj promenljivi ---> Var kl: class, 1, 0 
+INFO  20:17:55,069 - Pretraga na 68(kl), pristup globalnoj promenljivi ---> Var kl: class, 1, 0 
+INFO  20:17:55,069 - Pretraga na 69(kl), pristup globalnoj promenljivi ---> Var kl: class, 1, 0 
+INFO  20:17:55,069 - Pretraga na 70(niz), pristup lokalnoj promenljivi ---> Var niz: Arr of int, 2, 1 
+INFO  20:17:55,070 - Pretraga na 71(ifProm), pristup lokalnoj promenljivi ---> Var ifProm: int, 4, 1 
+INFO  20:17:55,070 - Pretraga na 71(null), pristup globalnoj promenljivi ---> Con null: class, 0, 0 
+INFO  20:17:55,070 - Pretraga na 74(ch), pristup lokalnoj promenljivi ---> Var ch: char, 3, 1 
+INFO  20:17:55,070 - Pretraga na 80(dodelaProm), pristup lokalnoj promenljivi ---> Var dodelaProm: int, 1, 1 
+INFO  20:17:55,070 - Pretraga na 81(dodelaProm), pristup lokalnoj promenljivi ---> Var dodelaProm: int, 1, 1 
+INFO  20:17:55,070 - Pretraga na 81(ch), pristup lokalnoj promenljivi ---> Var ch: char, 3, 1 
+INFO  20:17:55,070 - Pretraga na 81(kl), pristup globalnoj promenljivi ---> Var kl: class, 1, 0 
+INFO  20:17:55,070 - Pretraga na 82(dodelaProm), pristup lokalnoj promenljivi ---> Var dodelaProm: int, 1, 1 
+INFO  20:17:55,070 - Pretraga na 82(ch), pristup lokalnoj promenljivi ---> Var ch: char, 3, 1 
+INFO  20:17:55,070 - Pretraga na 84(niz), pristup lokalnoj promenljivi ---> Var niz: Arr of int, 2, 1 
+INFO  20:17:55,070 - Pretraga na 86(kl), pristup globalnoj promenljivi ---> Var kl: class, 1, 0 
+INFO  20:17:55,070 - Pretraga na 86 pravljenje objekta klase int
+INFO  20:17:55,071 - Pretraga na 88 pristup lokalnoj promenljivi
+INFO  20:17:55,071 - Pretraga na 88 pristup formalnom parametru funkcije
+INFO  20:17:55,071 - Pretraga na 90(niz), pristup elementu niza ---> Var niz: Arr of int, 2, 1 
+INFO  20:17:55,071 - Pretraga na 90(niz), pristup lokalnoj promenljivi ---> Var niz: Arr of int, 2, 1 
+INFO  20:17:55,071 - Pretraga na 91(dodelaProm), pristup elementu niza ---> Var dodelaProm: int, 1, 1 
+INFO  20:17:55,071 - Pretraga na 91(dodelaProm), pristup lokalnoj promenljivi ---> Var dodelaProm: int, 1, 1 
+INFO  20:17:55,071 - ===================================
+=====================SYMBOL TABLE DUMP=========================
+Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: class, 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: bool, -1, -1 
+Prog proba: notype, 0, 1 
+   Con dobraKonst: int, 1, 0 
+   Var losTip: notype, 0, 0 
+   Type Klasa: Class [Fld polje: int, 1, 1 Meth meth: notype, 0, 3 
+      Var this: , 0, 1 
+      Var p1: int, 1, 1 
+      Var p2: char, 2, 1 
+], 0, 0 
+   Var kl: class, 1, 0 
+   Meth metodaBezReturn: int, 0, 0 
+
+   Meth metodaSaLosimReturn: int, 0, 0 
+
+   Meth f: notype, 0, 0 
+
+   Meth main: notype, 0, 0 
+      Var nijeNiz: int, 0, 1 
+      Var dodelaProm: int, 1, 1 
+      Var niz: Arr of int, 2, 1 
+      Var ch: char, 3, 1 
+      Var ifProm: int, 4, 1 
+
+
+

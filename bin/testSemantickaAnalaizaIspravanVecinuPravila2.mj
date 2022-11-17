@@ -1,0 +1,83 @@
+program MJProgram
+const int a = 1, b = 2, c = 3;
+const char d = 'c';
+const bool g = true, h = false;
+int prom1, p, niz[];
+char prom2, arr[];
+record R{
+	int r1, prom1, array[];
+	char i;
+}
+record R2{
+	int polje;
+	R fr;
+	char r2niz[];
+}
+R2 r, rNiz[];
+
+class C1{
+	int a,b;
+	char c;
+	{
+		R cFunc()
+		R rc1;
+		{
+			rc1=new R;
+			print(2);
+			return rc1;
+		}
+	}
+}
+class C2 extends C1{
+	R rField;
+	{
+		int c2f(char c){
+			this.rField=new R;
+			this.rField.r1=1;
+			rField.r1=2;
+			print(c);
+			return 1;
+		}
+		R cFunc()
+		R rc2;
+		int c;
+		{
+			super();
+			c2f('a');
+			rc2=new R;
+			print(1);
+			return rc2;
+		}
+	}
+}
+
+C2 c2;
+C1 c11, c12;
+{
+	int func(int fa, int fb, char fc[])
+	int fprom, a;
+	char ch;
+	{
+		a = fprom + b + fa;
+		print(a);
+		//arr[1] = arr[3];
+		return a;
+	}
+	R f()
+	R r;
+	{
+		r=new R;
+		return r;
+	}
+	int Meth(int par)
+	{
+		Meth(par);
+		return 1;
+	}
+	void main(){
+		f();
+		c2=new C2;
+		c2.c2f('c');
+		c2.cFunc();
+	}
+}

@@ -1,0 +1,41 @@
+program MJProgram
+const int a = 1, b = 2, c = 3;
+const char d = 'c';
+const bool g = true, h = false;
+int prom1, p, niz[];
+char prom2, arr[];
+record R{
+	int r;
+}
+R r;
+{
+	
+	void main(){
+		do{
+			prom1++;
+			print(prom1);
+			p = 0;
+			do{
+				p++;
+				
+				if(p == 1){
+					continue;
+					print(p, 2);
+				}else{
+					if(p == 2){
+						print(p,3);
+					}
+				}
+			}while(p < 2);
+			continue;
+		}while(prom1 < 4 && prom1 >= 0 || prom1 < 5 );
+		r=null;
+		if(r==null){
+			print('n',2);
+			print('u',2);
+			print('l',2);
+			print('l',2);
+			print(eol);
+		}
+	}
+}

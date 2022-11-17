@@ -1,0 +1,71 @@
+INFO  20:19:23,857 - Compiling source file: C:\Users\km180097d\Desktop\cetvrta godina\prvi semestar\programski prevodioci\projekat\workspace\MJCompiler\test\testSemantickeGreskeMain.mj
+INFO  20:19:23,888 - #5 program
+INFO  20:19:23,888 - #45 proba
+INFO  20:19:23,888 - #6 {
+INFO  20:19:23,888 - #45 void
+INFO  20:19:23,889 - #45 main
+INFO  20:19:23,889 - #16 (
+INFO  20:19:23,890 - #45 int
+INFO  20:19:23,890 - #45 param
+INFO  20:19:23,890 - #17 )
+INFO  20:19:23,890 - #6 {
+INFO  20:19:23,891 - #7 }
+INFO  20:19:23,892 - #7 }
+INFO  20:19:23,895 - Program(
+  ProgName(
+   proba
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  Methods(
+    NoMethods(
+    ) [NoMethods]
+    Method(
+      MethodTypeName(
+        Type(
+         void
+        ) [Type]
+       main
+      ) [MethodTypeName]
+      FormParsExist(
+        LastFormParsPart(
+          FormParsPartNoArray(
+            Type(
+             int
+            ) [Type]
+           param
+          ) [FormParsPartNoArray]
+        ) [LastFormParsPart]
+      ) [FormParsExist]
+      NoVariables(
+      ) [NoVariables]
+      StatementListStart(
+      ) [StatementListStart]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [Method]
+  ) [Methods]
+) [Program]
+INFO  20:19:23,901 - ===================================
+INFO  20:19:23,904 - ===================================
+=====================SYMBOL TABLE DUMP=========================
+Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: class, 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: bool, -1, -1 
+Prog proba: notype, 0, 1 
+   Meth main: notype, 0, 1 
+      Var param: int, 0, 1 
+
+
+

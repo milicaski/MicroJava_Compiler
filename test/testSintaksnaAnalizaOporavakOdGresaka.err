@@ -1,0 +1,37 @@
+ERROR 20:23:59,761 - 
+Sintaksna greska na liniji 3
+ERROR 20:23:59,768 - 
+Sintaksna greska na liniji 4
+ERROR 20:23:59,770 - 
+Sintaksna greska na liniji 6
+ERROR 20:23:59,777 - 
+Sintaksna greska na liniji 11
+ERROR 20:23:59,778 - 
+Sintaksna greska na liniji 12
+ERROR 20:23:59,785 - 
+Sintaksna greska na liniji 21
+ERROR 20:23:59,786 - 
+Sintaksna greska na liniji 25
+ERROR 20:23:59,787 - 
+Sintaksna greska na liniji 28
+ERROR 20:23:59,796 - 
+Sintaksna greska na liniji 33
+ERROR 20:23:59,798 - 
+Sintaksna greska na liniji 39
+ERROR 20:23:59,800 - 
+Sintaksna greska na liniji 42
+ERROR 20:23:59,803 - 
+Sintaksna greska na liniji 47
+ERROR 20:23:59,810 - Uspesan oporavak od greske do ',' pri definiciji globalnih konstanti na liniji 3
+ERROR 20:23:59,810 - Uspesan oporavak od greske do ',' pri definiciji promenljivih na liniji 4
+ERROR 20:23:59,810 - Uspesan oporavak od greske do ';' pri definiciji globalnih konstanti
+ERROR 20:23:59,811 - Uspesan oporavak od greske do ',' pri definiciji promenljivih na liniji 11
+ERROR 20:23:59,811 - Uspesan oporavak od greske do ',' pri definiciji promenljivih na liniji 12
+ERROR 20:23:59,811 - Uspesan oporavak od greske do '{' pri izvodjenju klase
+ERROR 20:23:59,811 - Uspesan oporavak od greske do ',' pri definiciji promenljivih na liniji 25
+ERROR 20:23:59,811 - Uspesan oporavak od greske do ')' pri deklaraciji formalnih parametara funkcije
+ERROR 20:23:59,812 - Uspesan oporavak od greske do ',' pri deklaraciji formalnih parametara funkcije na liniji 33
+ERROR 20:23:59,812 - Uspesan oporavak od greske pri dodeli na liniji 39
+ERROR 20:23:59,812 - Uspesan oporavak od greske do ')' pri logickom izrazu u if konstrukciji
+ERROR 20:23:59,812 - Uspesan oporavak od greske do ')' pri logickom izrazu u if konstrukciji
+ERROR 20:23:59,812 - Parsiranje NIJE uspesno zavrseno!

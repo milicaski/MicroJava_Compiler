@@ -1,0 +1,115 @@
+program p
+
+const int a = 1,b = 2;
+const char ch = 'c';
+int c;
+bool boolean;
+
+record R{
+	int r1;
+	char r2;
+	bool r3;
+}
+
+class A{
+	int polje;
+	A poljeA;
+	int dobroPolje;
+	bool okPolje, okPolje2;
+	{
+		A(){
+			print('A');
+		}
+		void m2(){
+			print('m');
+			print('2');
+			print('A');
+			print(eol);
+		}
+		void meth(A a){
+			a.m2();
+		}
+	}
+}
+
+class B extends A {
+	bool poljeB;
+	{
+		B(){
+			super();
+			print('B');
+			this.poljeB = true;
+		}
+		bool getPoljeB(){
+			return poljeB;
+		}
+		int methB(int b)
+		int i;
+		{
+			if(b < 2){
+				return 1;
+			}
+			do{
+				read(i);
+				if(i == 0){
+					break;
+				}
+			}while(i != 10);
+			return 2;
+		}
+		
+		void m2(){
+			print('m');
+			print('2');
+			print('B');
+			print(eol);
+		}
+	}
+}
+
+A kA;
+A nizA[];
+B objB;
+
+{
+	void f(int a)
+	int c;
+	{
+		c = a;
+	}
+	int f2(char x, A a[]){
+		return 1;
+	}
+	void main()
+	int i;
+	{
+		c = a + 1;
+		f(1);
+		nizA = new A[3];
+		
+	   	nizA[0] = new A;//A
+	   	nizA[1] = new B;//A B
+	   	nizA[2] = new A;//A
+	   	i = 0;
+	   	do {
+	   		nizA[i].m2();//ispisace ime metode i klase
+	   		i++;
+	   	} while(i < len(nizA));
+	   	
+	   	objB = new B;//A B
+	   	
+		nizA[0].polje = 1;
+		nizA[nizA[0].polje].meth(nizA[0]);//m2A
+		
+		if(objB.poljeB == false){
+			print(objB.poljeB);
+		}else if(objB.poljeB == true){
+			print(objB.poljeB);//1
+		}
+		i = 0;
+		do{
+			i++;
+			print(i);
+		}while(i < 10);//1 2 3 4 5 6 7 8 9 10
+	}
+}

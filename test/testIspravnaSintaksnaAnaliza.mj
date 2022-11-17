@@ -1,0 +1,76 @@
+program p
+
+const int a = 1,b = 2;
+int c;
+int d;
+
+class A{
+	int polje;
+	A poljeA;
+	int dobroPolje;
+	bool okPolje,okPolje2;
+	{
+		A(){
+			print('A');
+		}
+		void meth(A a){
+		
+		}
+	}
+}
+
+class B extends A {
+	bool poljeB;
+	{
+		B(){
+			super();
+			print('B');
+		}
+		
+		int methB()
+		int i;
+		{
+			if(1 < 2){
+				return 1;
+			}
+			do{
+				read(i);
+				if(i == 0){
+					break;
+				}
+			}while(i != 10);
+			return 2;
+		}
+	}
+}
+
+A kA;
+
+{
+	void f(int a)
+	int c;
+	{
+		c = a;
+	}
+	int f2(char x){
+		return 1;
+	}
+	void main()
+	int i;
+	{
+		c = a + 1;
+		f(1);
+		
+		if(a < 5 || 1 == a ){
+			print('1');
+		}else{
+			print('o');
+		}
+		
+		i = 0;
+		do{
+			i++;
+			print(i);
+		}while(i < 10);
+	}
+}

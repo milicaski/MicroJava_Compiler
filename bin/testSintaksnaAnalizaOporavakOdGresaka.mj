@@ -1,0 +1,49 @@
+program p
+
+const int a = 1,,b = 2;
+int c,,;
+int d;
+const int +;
+int +;
+class A{
+	int polje;
+	A poljeA;
+	int dobroPolje,;
+	bool okPolje,,okPolje2;
+	{
+	
+		void meth(A a){
+		
+		}
+	}
+}
+
+class BLose extends / {
+
+}
+
+A kA,,;
+
+{
+	void f(,int a)
+	int c;
+	{
+		a = 1;
+	}
+	int f2(char x,){
+		return 1;
+	}
+	void main()
+	int i;
+	{
+		c = a +;
+		f(1);
+		
+		if(a < 5 || 1 == ){}
+		
+		i = 0;
+		do{
+			i++;
+		}while(i < 10 &&);
+	}
+}

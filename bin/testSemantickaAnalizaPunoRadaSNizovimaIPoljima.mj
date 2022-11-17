@@ -1,0 +1,154 @@
+program MJProgram
+const int a = 1, b = 2, c = 3;
+const char d = 'c';
+const bool g = true, h = false;
+int prom1, p, niz[];
+char prom2, arr[];
+record R{
+	int r1, prom1, array[];
+	char i;
+}
+record R2{
+	int polje;
+	R fr;
+	char r2niz[];
+}
+R2 r, rNiz[];
+
+
+class C1{
+	int a,b;
+	char c;
+	{
+		R cFunc()
+		R rc1;
+		{
+			rc1=new R;
+			print(2);
+			return rc1;
+		}
+	}
+}
+class C2 extends C1{
+	R rField;
+	{
+		int c2f(char c){
+			this.rField=new R;
+			this.rField.r1=1;
+			return 1;
+		}
+		R cFunc()
+		R rc2;
+		int c;
+		{
+			rc2=new R;
+			print(1);
+			return rc2;
+		}
+	}
+}
+
+C2 c2;
+C1 c11, c12;
+{
+	int func(int fa, int fb, char fc[])
+	int fprom, a;
+	char ch;
+	{
+		a = fprom + b + fa;
+		print(a);
+		arr[1] = arr[3];
+		return a;
+	}
+	R f()
+	R r;
+	{
+		r=new R;
+		return r;
+	}
+	void main(){
+		f();
+		c2=new C2;
+		c2.c2f('c');
+		c2.cFunc();
+		c11=new C1;
+		c12=new C2;
+		c12.cFunc();
+		c11.cFunc();
+		prom1 = 10;
+		print(prom1);
+		prom1++;
+		print(prom1);
+		p = 1;
+		prom1 = p *3 + prom1;
+		print(prom1);
+		niz = new int[5];
+		niz[1] = 1;
+		arr = new char[5];
+		print(1+prom1+func(func(niz[1],1,arr), 1, arr), 5);
+		print(prom1);
+		print(1-(2-1)*4+2/1*5+(4-1)*(2+1/1));
+		func(1, 1, arr);
+		prom1 = niz[1];
+		
+		p = niz[1] + niz[2];
+		read(p);
+		print(p);
+		
+		niz[1] = 2;
+		niz[2] = 3;
+		niz[1]--;
+		print(niz[1]);
+		niz[niz[2] - b]++;
+		print(niz[1]+1);
+		p = niz[niz[1]];
+		print(p);
+		niz[niz[2]+1] = niz[2];
+		print(niz[4]);
+		niz[niz[niz[1]]]=1;
+		print(niz[3]);
+		
+		arr[1] = 'b';
+		arr[2] = 'c';
+		print(arr[1]);
+		prom2 = arr[niz[1]];
+		print(prom2);
+		arr[niz[2]+1] = arr[1];
+		print(arr[4]);
+		
+		r = new R2; 
+		r.fr=new R;
+		r.r2niz = new char[2];
+		p = r.fr.r1;
+		r.fr.array = new int[3];
+		prom2 = r.r2niz[1];
+		r.fr.array[1] = a;
+		r.r2niz[1] = prom2;
+		p = r.fr.array[func(1,1,arr)-2];
+		print(p);
+		r.fr.prom1 = r.polje;
+		
+		r.fr.prom1++;
+		print(r.fr.prom1);
+		r.fr.array[1+func(1,1,r.r2niz)-2]++;
+		print(r.fr.array[2]);
+		r.fr.array[niz[1]-1]++;
+		print(eol);
+		print(r.fr.array[1]);
+		prom1++;
+		niz[1]++;
+		read(r.fr.array[1]);
+		print(r.fr.array[1]);
+		read(r.fr.prom1);
+		print(r.fr.prom1);
+		read(niz[niz[niz[1]]]);
+		print(niz[niz[niz[1]]]);
+		read(prom1);
+		print(prom1);
+		print(chr(38));
+		print(len(r.fr.array));
+		print(chr(99));
+		prom2=chr(99);
+		print(prom2);
+	}
+}

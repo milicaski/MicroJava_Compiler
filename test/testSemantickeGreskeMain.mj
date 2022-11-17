@@ -1,0 +1,10 @@
+program proba
+
+
+{	
+	//int main()
+	void main(int param)
+	//void main() 
+	{
+	}
+}

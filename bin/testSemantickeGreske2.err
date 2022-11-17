@@ -1,0 +1,19 @@
+ERROR 20:18:42,497 - Konstruktor mora imati isti naziv kao i klasa u kojoj je definisan  na liniji 8
+ERROR 20:18:42,498 - Greska metoda meth izvedene klase mora da ima kompatibilan tip povratne vrednosti! na liniji 40
+ERROR 20:18:42,498 - 2.Tip formalnog parametara u izvedenoj metodi mora biti isti kao u roditeljskoj klasi u metodi meth2 na liniji 44
+ERROR 20:18:42,499 - Greska u liniji 49: broj formalnih i stvarnih parametara se ne poklapa 4
+ERROR 20:18:42,499 - Greska tip prilikom izvodjenja klase iz druge klase mora biti unutrasnja klasa glavnog programa.  int nije klasa na liniji 55
+ERROR 20:18:42,499 - Greska tip prilikom izvodjenja klase iz druge klase mora biti unutrasnja klasa glavnog programa.  R nije klasa na liniji 58
+ERROR 20:18:42,499 - Greska: int mora da oznacava unutrasnju klasu! na liniji 70
+ERROR 20:18:42,499 - Greska u liniji 70: nekompatibilni tipovi za dodelu 2
+ERROR 20:18:42,499 - Greska u liniji 72: nekompatibilni tipovi za dodelu 2
+ERROR 20:18:42,499 - Greska u liniji 75: Procedura pozvana kao funkcija
+ERROR 20:18:42,499 - Greska u liniji 75: nekompatibilni tipovi za dodelu 2
+ERROR 20:18:42,499 - Greska u liniji 77: promenljiva mora biti tipa klase
+ERROR 20:18:42,499 - Greska u liniji 77: ne postoji polje sa nazivom - polje
+ERROR 20:18:42,500 - Greska u liniji 77: nekompatibilni tipovi za dodelu 2
+ERROR 20:18:42,500 - Greska u liniji 78: ne postoji polje sa nazivom - p6
+ERROR 20:18:42,500 - Greska u liniji 78: nekompatibilni tipovi za dodelu 2
+ERROR 20:18:42,501 - Greska: uz promenljive tipa niza ili klase dozvoljeni su samo relacioni operatori == i != ! na liniji 80
+ERROR 20:18:42,501 - Greska u liniji 82: promenljiva mora biti tipa int
+ERROR 20:18:42,501 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,338 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	boolean errorDetected;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+:}
+
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal COLON;
+
+terminal THIS, SUPER;
+terminal PROG, LCBRACE, RCBRACE, CONST, SEMI, ASSIGN, COMMA, LBRACE, RBRACE, CLASS, EXTENDS;
+terminal LPAREN, RPAREN, RECORD, BREAK, CONTINUE, INC, DEC, DOT, PLUS, MINUS, STAR, DIVIDE, PERC;
+terminal NEW, RETURN, READ, PRINT, IF, ELSE, EQUAL, DIFF, GTE, GT, LSSE, LSS, AND, OR, DO, WHILE;
+terminal String IDENT;
+terminal String BOOLCONST;
+terminal Integer NUMCONST;
+terminal String CHARCONST; 
+
+
+nonterminal Program, DeclarationList, DeclarationPart, ConstDecl, VarDecl, ClassDecl, RecordDecl;
+nonterminal ConstList, ConstPart, ConstAssign, VarList, VarPart, VariablesDecl, ConstrMethodDecl;
+nonterminal ConstructorDecl, ClassMethodDecl, MethodDecl, Method, FormPars, FormParsList, FormParsPart;
+nonterminal StatementList, Statement, SingleStatement, Statements, StatementListStart, EndOfVariablesDecl;
+nonterminal DesignatorStatement, ActParsList, ActPars, DoWhileStart, ThenStart, ElseStart, DoWhileCondStart;
+nonterminal Assignop, Addop, Mulop, StartFunctionCall, OrRelOp;
+nonterminal Condition, CondTermList, CondTerm, CondFactList, CondFact, Relop, ConstType, VarDeclType, ArrayElemStart;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, MethodTypeName, ConstructorName, Designator, DesignatorName, Field, DesignatorFields, RecordName, ClassName;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Expr, TermList, Term, FactorList, Factor, ExtendsType;
+
+
+precedence left ELSE;
+
+
+Program ::= (Program) ProgName:pNameObj DeclarationList LCBRACE MethodDecl RCBRACE 
+			;
+
+ProgName ::= (ProgName) PROG IDENT:name
+			;
+			
+DeclarationList ::= (Declarations) DeclarationList DeclarationPart
+					| (NoDeclarations) /* epsilon */
+					;	
+					
+DeclarationPart ::= (ConstDeclaration) ConstDecl	
+					|(VarDeclaration) VarDecl
+					|(ClassDeclaration) ClassDecl
+					|(RecordDeclaration) RecordDecl
+					;
+
+ConstDecl ::= (ConstDeclNoError) ConstType ConstList SEMI
+				| (ConstDeclError) CONST error SEMI
+				;
+
+ConstType ::= (ConstType) CONST Type:ctype
+			;
+			
+ConstList ::= (MoreConstList) ConstList COMMA ConstPart
+			| (LastConstPart) ConstPart
+			| (ErrorConstList) ConstList COMMA error
+			;
+
+ConstPart ::= (ConstPart) IDENT:constName ASSIGN ConstAssign
+			;
+			
+ConstAssign ::= (NumConstAssign) NUMCONST:num
+				| (CharConstAssign)  CHARCONST:ch
+				| (BoolConstAssign) BOOLCONST:b
+				;
+
+Type ::= (Type) IDENT:typeName
+		;
+		
+VarDecl ::= (VarDeclNoError) VarDeclType VarList SEMI
+			| (VarDeclError) error SEMI
+			;
+
+VarDeclType ::= (VarDeclType) Type:vdtype
+			;
+					
+VarList ::= (MoreVarList) VarList COMMA VarPart
+			| (LastVarPart) VarPart
+			| (ErrorVarList) VarList COMMA error
+			;
+			
+VarPart ::= (VarPartArray) IDENT:varNameA LBRACE RBRACE
+			| (VarPartNoArray) IDENT:varName
+			;
+
+VariablesDecl ::= (Variables) VariablesDecl VarDecl
+				| (NoVariables) /* epsilon */
+				;
+				
+ClassDecl ::= (ClassDecl) ClassName:cn LCBRACE VariablesDecl ConstrMethodDecl RCBRACE
+			;
+
+ClassName ::= (ClassName) CLASS IDENT:id ExtendsType:et
+			;
+			
+ExtendsType ::= (ExtendsT) EXTENDS IDENT:id 
+			| (NoExtendsT) /* epsilon */
+			| (ErrorExtends) EXTENDS error
+			;
+			
+ConstrMethodDecl ::= (CMDecl) EndOfVariablesDecl ConstructorDecl ClassMethodDecl RCBRACE
+					| (CMDeclNoConstr) EndOfVariablesDecl ClassMethodDecl RCBRACE
+					| (CMDeclNoMeth) EndOfVariablesDecl ConstructorDecl RCBRACE
+					| (CMDeclBraces) EndOfVariablesDecl RCBRACE
+					| (NoCMDecl) /* epsilon */ 
+					;
+
+EndOfVariablesDecl ::= (NormalEndOfVariablesDecl) LCBRACE
+					| (ErrorEndOfVariablesDecl) error LCBRACE
+					;
+					
+ConstructorDecl ::= (ConstructorDecl) ConstructorName:cn LPAREN RPAREN VariablesDecl LCBRACE StatementList RCBRACE 
+				;
+	
+ConstructorName ::= (ConstructorName) IDENT:id
+					;
+					
+ClassMethodDecl ::=  (MoreClassMethodDecl) ClassMethodDecl Method
+					| (LastClassMethodDecl) Method
+					;
+						
+RecordDecl ::= (RecordDecl) RecordName:rn LCBRACE VariablesDecl RCBRACE
+			;
+
+RecordName ::= (RecordName) RECORD IDENT:id
+			;
+			
+MethodDecl ::= (Methods) MethodDecl Method
+			| (NoMethods)/* epsilon */
+			;
+			
+Method ::= (Method) MethodTypeName LPAREN FormPars RPAREN VariablesDecl StatementListStart StatementList RCBRACE 
+		;
+
+MethodTypeName ::= (MethodTypeName) Type:retType IDENT:name
+			;
+
+StatementListStart ::= (StatementListStart) LCBRACE
+					;
+									
+FormPars ::= (FormParsExist) FormParsList
+			| (NoFormPars) /* epsilon */
+			;
+			
+FormParsList ::= (MoreFormParsList) FormParsList COMMA FormParsPart
+			| (LastFormParsPart) FormParsPart
+			| (ErrorFormParsList) FormParsList COMMA error
+			| (ErrorFPL) error
+			;
+			
+FormParsPart ::= (FormParsPartArray) Type:arrayType IDENT:arrName LBRACE RBRACE
+				| (FormParsPartNoArray) Type:noArrayType IDENT:parName
+				;
+				
+StatementList ::= (MoreStatementList) StatementList Statement
+				| (NoStatementList) /* epsilon */ 
+				;
+
+Statement ::=  (NoLableStatement) SingleStatement
+			| (MultyStatement) Statements
+			;
+			
+SingleStatement ::= (SingStmtDesignatorStatement) DesignatorStatement SEMI
+					| (SingStmtIf) IF LPAREN Condition ThenStart Statement 
+					| (SingStmtIfElse) IF LPAREN Condition ThenStart Statement ElseStart Statement
+					| (SingStmtDoWhile) DoWhileStart Statement DoWhileCondStart Condition RPAREN SEMI
+					| (SingStmtBreak) BREAK SEMI
+					| (SingStmtContinue) CONTINUE SEMI
+					| (SingStmtReturnExpr) RETURN Expr:e SEMI
+					| (SingStmtReturn) RETURN SEMI
+					| (SingStmtRead) READ LPAREN Designator:d RPAREN SEMI
+					| (SingStmtPrintNumConst) PRINT LPAREN Expr:pExpr COMMA NUMCONST:nc RPAREN SEMI
+					| (SingStmtPrintNoNumConst) PRINT LPAREN Expr:exp RPAREN SEMI
+					;
+
+ThenStart ::= (ThenStart) RPAREN
+				;
+	
+ElseStart ::= (ElseStart) ELSE
+				;
+				
+DoWhileStart ::= (DoWhileStart) DO
+				;
+				
+DoWhileCondStart ::= (DoWhileCondStart) WHILE LPAREN
+					;
+		
+Statements ::= (Statements) LCBRACE StatementList RCBRACE
+			;
+			
+			
+DesignatorStatement ::= (AssignDesOption) Designator:dA Assignop Expr:e
+						| (ErrorAssignDes) Designator Assignop error
+						| (FuncCallDesOption) StartFunctionCall ActPars RPAREN
+						| (IncDesOption) Designator:dI INC
+						| (DecDesOption) Designator:dD DEC
+						;
+		
+StartFunctionCall ::= (StartFunctionCall) Designator:funD LPAREN
+					;
+					
+Designator ::= (Designator) DesignatorName:desObj DesignatorFields:fObj
+			;
+			
+DesignatorName ::= (DesignatorNameIdent) IDENT:desName
+					| (DesignatorNameThis) THIS
+					| (DesignatorNameSuper) SUPER
+					;
+				
+DesignatorFields ::= (DesignatorFieldsExist) DesignatorFields:c Field:f
+					| (NoDesignatorFields) /* epsilon */
+					;
+
+Field ::= (ClassField) DOT IDENT:id
+		| (ArrayElem) ArrayElemStart Expr:e RBRACE
+		;
+
+ArrayElemStart ::= (ArrayElemStart) LBRACE
+				;
+ActPars ::= (ActParsExist) ActParsList 
+			| (NoActPars) /* epsilon */
+			;
+	 
+ActParsList ::= (MoreExpr) ActParsList COMMA Expr:mE
+			| (SingleExpr) Expr:sE
+			;
+			
+Expr ::= (Expr) TermList:e
+		;
+	
+TermList ::= (MoreTerm) TermList:tl Addop Term:t
+			| (SingleTerm) Term:singT
+			;
+			
+Term ::= (Term) FactorList:fl
+		;
+		
+FactorList ::= (MoreFactor) FactorList:fl Mulop Factor:fac
+			| (SingleFactor) Factor:f
+			| (MinusFactor) MINUS Factor:minusF
+			;
+			
+	 
+Factor ::=	(FactorVar) Designator:d 
+			| (FactorFuncCall) StartFunctionCall ActPars RPAREN
+			| (FactorNumConst) NUMCONST:nc
+			| (FactorCharConst) CHARCONST:cc
+			| (FactorBoolConst) BOOLCONST:bc
+			| (FactorAllocType) NEW Type:tc
+			| (FactorAllocArray) NEW Type:t LBRACE Expr:e RBRACE
+			| (FactorParentheses)LPAREN Expr:e RPAREN
+			;
+	
+Condition ::= (ConditionNoError) CondTermList
+			| (ConditionError) error
+			;	
+			
+CondTermList ::= (MoreCondTerm) CondTermList OrRelOp CondTerm
+				| (SingleCondTerm) CondTerm
+				;
+	
+OrRelOp ::= (OrRelOp) OR
+			;
+			
+CondTerm ::= (CondTerm) CondFactList
+			;
+		
+CondFactList ::= (MoreCondFact) CondFactList AND CondFact
+				| (SingleCondFact) CondFact
+				;		
+		
+CondFact ::= (SingleCondFactExpr) Expr:e
+			| (RelopCondFactExpr) Expr:l Relop Expr:r
+			;
+			
+Relop ::= (EqualOp) EQUAL
+		| (DiffOp) DIFF
+		| (LessOp) LSS
+		| (LessEqOp) LSSE
+		| (GrtOp) GT
+		| (GrtEqOp) GTE
+		;
+					
+Assignop ::= (Assignop) ASSIGN
+		;
+	
+Addop ::= (PlusOp) PLUS
+		| (MinusOp) MINUS
+		;
+	
+Mulop ::= (StarOp) STAR
+		| (DivideOp) DIVIDE
+		| (ModOp) PERC
+		;
+	

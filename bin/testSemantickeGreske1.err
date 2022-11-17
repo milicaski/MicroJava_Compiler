@@ -1,0 +1,61 @@
+ERROR 20:17:55,067 - Ne podudara se tip konstante i vrednost koja joj se dodeljuje na liniji 4
+ERROR 20:17:55,067 - Ne podudara se tip konstante i vrednost koja joj se dodeljuje na liniji 5
+ERROR 20:17:55,067 - Ne podudara se tip konstante i vrednost koja joj se dodeljuje na liniji 6
+ERROR 20:17:55,067 - Nije pronadjen tip in u tabeli simbola! 
+ERROR 20:17:55,067 - Semanticka greska na liniji 19: funkcija metodaBezReturn nema return iskaz!
+ERROR 20:17:55,067 - Greska na liniji 22 : tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije metodaSaLosimReturn
+ERROR 20:17:55,068 - Greska na liniji 23 : tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije metodaSaLosimReturn
+ERROR 20:17:55,068 - Greska na liniji 0 : metoda nije void, tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije metodaSaLosimReturn
+ERROR 20:17:55,068 - Greska vec postoji metoda sa nazivom: f ! na liniji 28
+ERROR 20:17:55,068 - Greska na liniji 28 : tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije f
+ERROR 20:17:55,068 - Greska u liniji 37: tip formalnog i stvarnog parametra se ne poklapaju 1
+ERROR 20:17:55,068 - Greska u liniji 38: tip formalnog i stvarnog parametra se ne poklapaju 1
+ERROR 20:17:55,068 - Greska u liniji 39: tip formalnog i stvarnog parametra se ne poklapaju 1
+ERROR 20:17:55,068 - Greska u liniji 41: promenljiva sa leve strane mora biti lvalue
+ERROR 20:17:55,068 - Greska u liniji 41: nekompatibilni tipovi za dodelu 2
+ERROR 20:17:55,068 - Greska u liniji 43: nekompatibilni tipovi za dodelu 2
+ERROR 20:17:55,068 - Greska u liniji 45: nekompatibilni tipovi za dodelu 2
+ERROR 20:17:55,068 - Greska u liniji 47: promenljiva mora biti tipa int
+ERROR 20:17:55,068 - Greska u liniji 48: promenljiva u ++ mora biti lvalue
+ERROR 20:17:55,068 - Greska u liniji 49: nije moguce umanjivati promenljivu tipa niza
+ERROR 20:17:55,069 - Greska u liniji 50: promenljiva mora biti tipa int
+ERROR 20:17:55,069 - Greska u liniji 52: Ocekivan metod
+ERROR 20:17:55,069 - Greska u liniji 53: Ocekivan metod
+ERROR 20:17:55,069 - Greska: break se moze nalaziti samo unutar do-while petlje!
+ERROR 20:17:55,069 - Greska: continue se moze nalaziti samo unutar do-while petlje!
+ERROR 20:17:55,069 - Greska: break se moze nalaziti samo unutar do-while petlje!
+ERROR 20:17:55,069 - Greska: continue se moze nalaziti samo unutar do-while petlje!
+ERROR 20:17:55,069 - Greska u liniji 62: promenljiva mora biti lvalue
+ERROR 20:17:55,069 - Greska u liniji 62: promenljiva u read mora biti int char ili bool
+ERROR 20:17:55,069 - Greska u liniji 63: promenljiva u read mora biti int char ili bool
+ERROR 20:17:55,069 - Greska u liniji 65: tip izraza mora biti int, char ili bool
+ERROR 20:17:55,069 - Greska u liniji 66: tip izraza mora biti int, char ili bool
+ERROR 20:17:55,069 - Greska: uslovni izraz mora biti tipa bool! na liniji 68
+ERROR 20:17:55,069 - Greska: tipovi unutar uslova moraju biti kompatibilni! na liniji 69
+ERROR 20:17:55,069 - Greska: uz promenljive tipa niza ili klase dozvoljeni su samo relacioni operatori == i != ! na liniji 69
+ERROR 20:17:55,070 - Greska: uz promenljive tipa niza ili klase dozvoljeni su samo relacioni operatori == i != ! na liniji 70
+ERROR 20:17:55,070 - Greska: tipovi unutar uslova moraju biti kompatibilni! na liniji 71
+ERROR 20:17:55,070 - Greska: tipovi unutar uslova moraju biti kompatibilni! na liniji 71
+ERROR 20:17:55,070 - Greska: uslovni izraz mora biti tipa bool! na liniji 74
+ERROR 20:17:55,070 - Greska: uslovni izraz mora biti tipa bool! na liniji 74
+ERROR 20:17:55,070 - Greska u liniji 77: broj formalnih i stvarnih parametara se ne poklapa 1
+ERROR 20:17:55,070 - Greska u liniji 78: tip formalnog i stvarnog parametra se ne poklapaju 1
+ERROR 20:17:55,070 - Greska u liniji 78: tip formalnog i stvarnog parametra se ne poklapaju 2
+ERROR 20:17:55,070 - Greska u liniji 80: tip izraza mora biti int
+ERROR 20:17:55,070 - Greska u liniji 80: nekompatibilni tipovi za dodelu 2
+ERROR 20:17:55,070 - Greska u liniji 81: svi izrazi moraju biti int
+ERROR 20:17:55,070 - Greska u liniji 81: svi izrazi moraju biti int
+ERROR 20:17:55,070 - Greska u liniji 81: nekompatibilni tipovi za dodelu 2
+ERROR 20:17:55,070 - Greska u liniji 82: svi izrazi moraju biti int
+ERROR 20:17:55,070 - Greska u liniji 82: svi izrazi moraju biti int
+ERROR 20:17:55,070 - Greska u liniji 82: svi izrazi moraju biti int
+ERROR 20:17:55,070 - Greska u liniji 82: nekompatibilni tipovi za dodelu 2
+ERROR 20:17:55,070 - Greska u liniji 84: tip u [] mora biti int
+ERROR 20:17:55,070 - Greska: int mora da oznacava unutrasnju klasu! na liniji 86
+ERROR 20:17:55,070 - Greska u liniji 86: nekompatibilni tipovi za dodelu 2
+ERROR 20:17:55,070 - Greska u liniji 88: promenljiva mora biti tipa klase
+ERROR 20:17:55,070 - Greska u liniji 88: ne postoji polje sa nazivom - polje
+ERROR 20:17:55,071 - Greska u liniji 88: nekompatibilni tipovi za dodelu 2
+ERROR 20:17:55,071 - Greska u liniji 90: tip u [] mora biti int
+ERROR 20:17:55,071 - Greska u liniji 91: promenljiva mora biti niz
+ERROR 20:17:55,071 - Parsiranje NIJE uspesno zavrseno!
